@@ -37,8 +37,25 @@ Prendiamo un intero chiamato:
 Il programmatore non può accedervi. Il compito di tenere traccia di questo numero, che rispechia il numero di puntatori ancora attivi, ricade sulla macchina astratta.
 Per farlo quando un oggetto viene creato, il contatore è iniziallizzato a 1.
 
-Quando abbiamo l'assegnamento di un puntatore: `p = q;` il counter che appartiene all'oggetto puntato da `q` è incrementato di 1 mentre il contatore dell'oggetto puntato da `p` è diminuito di 1.
+Quando abbiamo l'assegnamento di un puntatore: `p = q;` il counter che appartiene all'oggetto puntato da `q` è incrementato di 1 mentre il contatore dell'oggetto puntato da `p` è diminuito di 1. Il contatore si decrementa quando si esce da un ambiente locale.
 
 <p align="center">
   <img src="./assets/pdp1.png" alt="data-structure" />
 </p>
+
+**Che succede se il contatore torna a 0?**
+
+L'oggetto può essere ritornato nella lista degli oggetti liberi ma prima di ciò la macchina astratta decrementa anche gli contatori degli altri puntatori, collezionando ricorsivamente tutti gli oggetti di cui il contatore fa 0.
+
+_Ecco le due fasi:_
+
+- `garbage-detection`
+- `collection`
+
+**Il difetto di questa tecnica?** Non si riescono a deallocare le strutture circolari.
+
+<p align="center">
+  <img src="./assets/pdp2.png" alt="data-structure" />
+</p>
+
+## Mark and Sweep
