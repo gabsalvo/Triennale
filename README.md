@@ -1,12 +1,12 @@
-# This is where I take my Uni notes
+# Laurea Triennale in Informatica, Università di Pisa
 
-The folder organizaion is pretty standard:
+L'organizzazione delle cartelle è standard:
 
 - `/I`
 - `/II`
 - `/III`
 
-These are not all the books and slides provided by the teachers but the notes I've crafted to study.
+Questi sono solo i miei appunti rielaborati o esercizi per studiare alcuni corsi della mia triennale a pisa.
 
 <p align="center">
   <img src="./assets/study.gif" alt="animated" />
