@@ -2,9 +2,9 @@
 
 The folder organizaion is pretty standard:
 
-`/I`
-`/II`
-`/III`
+- `/I`
+- `/II`
+- `/III`
 
 These are not all the books and slides provided by the teachers but the notes I've crafted to study.
 
