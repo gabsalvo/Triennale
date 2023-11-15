@@ -25,3 +25,20 @@ Non possiamo lasciare solo al GC di decidere se una risorsa può essere riutiliz
 - `copy collection `
 
 In generale però, le tecniche che consideriamo devono essere capaci di riconoscere quei campi all'interno di un oggetto che corrisponde ai puntatori.
+
+## Reference Counting
+
+Il modo più semplice per verificare che si sta usando un oggetto è controllare se questo ha puntatori attached to it. Questa è la reference counting technique.
+
+Prendiamo un intero chiamato:
+
+- `reference counter` oppure `reference count` per ogni oggetto.
+
+Il programmatore non può accedervi. Il compito di tenere traccia di questo numero, che rispechia il numero di puntatori ancora attivi, ricade sulla macchina astratta.
+Per farlo quando un oggetto viene creato, il contatore è iniziallizzato a 1.
+
+Quando abbiamo l'assegnamento di un puntatore: `p = q;` il counter che appartiene all'oggetto puntato da `q` è incrementato di 1 mentre il contatore dell'oggetto puntato da `p` è diminuito di 1.
+
+<p align="center">
+  <img src="./assets/pdp1.pdf" alt="data-structure" />
+</p>
