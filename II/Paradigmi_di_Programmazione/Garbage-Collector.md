@@ -40,5 +40,5 @@ Per farlo quando un oggetto viene creato, il contatore è iniziallizzato a 1.
 Quando abbiamo l'assegnamento di un puntatore: `p = q;` il counter che appartiene all'oggetto puntato da `q` è incrementato di 1 mentre il contatore dell'oggetto puntato da `p` è diminuito di 1.
 
 <p align="center">
-  <img src="/assets/pdp1.png" alt="data-structure" />
+  <img src="./assets/pdp1.png" alt="data-structure" />
 </p>
