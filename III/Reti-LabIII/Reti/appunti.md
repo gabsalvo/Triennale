@@ -90,3 +90,15 @@ Esempio:
 <p align="center">
   <img src="./assets/reti6.png" alt="lan" />
 </p>
+
+### Esempio di WAN
+
+<p align="center">
+  <img src="./assets/reti7.png" alt="lan" />
+</p>
+
+Utilizzando una rete gestita da un provider di servizi internet (ISP) commerciale è possibile
+
+<p align="center">
+  <img src="./assets/reti7.png" alt="lan" />
+</p>
