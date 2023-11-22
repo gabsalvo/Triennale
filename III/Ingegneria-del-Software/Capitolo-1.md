@@ -59,3 +59,67 @@ Si divide in:
 2.  _Manutenzione migliorativa (80%)_ che può essere:
     - _perfettiva(60%)_ : nuove feature, più qualità in generale
     - _adattiva(20%)_ : cambiamenti a seguito di fattori esterni
+
+### Lavoro in Team
+
+Soprattuto si lavora in teams
+
+Il lavoro in teams pone dei problemi:
+
+- interfaccia tra le diverse componenti del codice
+- di comunicazione tra in membri del team
+
+Bisogna saper gestire i rapporti umani, organizzare il team e gestire gli aspetti economci legali
+
+### Tesi di IS
+
+- Processo software
+- Realizzazione di sistemi software
+- Qualità del software
+
+### Processo SW
+
+- Organizzazione e gestione dei progetti
+  - definizione e correlazione attività
+- Metodi di composizione dei gruppi di lavoro
+- Strumenti di pianificazione, analisi, controllo
+- Modelli ideali di processo di sviluppo
+
+### Realizzazione di sistemi SW
+
+- Strategie di analisi e progettazione
+
+  - tecniche per la comprensione e la soluzione di un problema
+  - Top-down , bottom-up, progettazione modulare, OO
+
+- Linguaggi di specifica e progettazione
+
+  - Strumenti per la definizione di sistemi software
+  - Reti di Petri, Z, OMT, UML
+
+- Ambienti di sviluppo
+  - Strumenti per analisi, progettazione e realizzazione
+  - Strumenti tradizionali, CASE, CAST
+
+### Qualità del SW
+
+- Modelli di qualità
+
+  - Definizione di caratterstiche della qualità
+
+- Metriche software
+
+  - Unità di misura, scale di riferimento, strumenti
+  - Indicatori di qualità
+
+- Metodi di verifica e controllo
+  - Metodi di verifica, criteri di progettazione delle prove
+  - Controllo della qualità, valutazione del processo di sviluppo
+
+### Stakeholders
+
+- Fornitore (chi lo sviluppa)
+
+- Committente (chi lo richiede e paga)
+
+- Utente(chi lo usa)
