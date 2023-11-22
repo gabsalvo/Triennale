@@ -42,3 +42,12 @@ Parleremo di Internet, LAN/WAN e Interconnessione di Reti
 
 _I dispositivi di internconnesione_ ->  
  Router (dispositivi che interconnettono reti) / Switch (collegano più host localmente)
+
+## LAN (Local Area Network)
+
+Sono reti locali, circoscritte ad una certa area. Sono private, Tipicamente si estendono qualche km. Usate per connettere sistemi terminali, tipo, pc, wrokstations e stampanti.
+Sono o wireless o col cavo di rame.
+
+<p align="center">
+  <img src="./assets/reti1.png" alt="lan" />
+</p>
