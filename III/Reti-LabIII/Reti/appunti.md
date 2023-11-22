@@ -55,3 +55,5 @@ Sono o wireless o col cavo di rame.
 <p align="center">
   <img src="./assets/reti2.png" alt="lan2" />
 </p>
+
+## WAN (Wide Area Network)
