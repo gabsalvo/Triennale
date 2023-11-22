@@ -30,5 +30,5 @@ L'approccio sistematico allo sviluppo, all'operatività, alla manutenzione e al 
 ### Le cause di abbandono di un progetto software
 
 <p align="center">
-  <img src="/assets/is1.gif" alt="animated" />
+  <img src="/assets/is1.png" alt="animated" />
 </p>
