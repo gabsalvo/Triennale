@@ -57,3 +57,22 @@ Sono o wireless o col cavo di rame.
 </p>
 
 ## WAN (Wide Area Network)
+
+É una rete il cui compito è interconnettere LAN o singoli host molto distanti tra loro. WAN è solitamente gestita da un operatore di rete che fornisce servizi ai clienti.
+
+`WAN punto-punto`:  
+collega due dispositivi tramite un mezzo trasmissivo
+
+<p align="center">
+  <img src="./assets/reti3.png" alt="lan" />
+</p>
+
+`WAN a commutazione` :  
+collega più di due punti di terminazione (usata nelle dorsali internet)
+
+- _Elementi di commutazione:_  
+  eleaboratori specializzati utilizzati per connettere fra loro due po più linee di trasmissione
+
+  <p align="center">
+    <img src="./assets/reti4.png" alt="lan" />
+  </p>
