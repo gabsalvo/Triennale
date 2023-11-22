@@ -1,5 +1,7 @@
 # Reti di Calcolatori
 
+[Link alle slides](https://drive.google.com/drive/folders/1iEMXGyVoyG3R9uhDmQOehlWevSgJkDmE)
+
 ## Capitolo 1
 
 Parleremo di Internet, LAN/WAN e Interconnessione di Reti
