@@ -118,3 +118,37 @@ Rete di computer che collega al'interno di un area metropolitana.
 <p align="center">
   <img src="./assets/reti8.png" alt="lan" />
 </p>
+
+### Network of networks
+
+Gli host si connettono a internet tramite Internet Service Provider (ISP)  
+Gli ISP di accesso a loro volta devono essere interconnessi in modo che due host qualsiasi possano inviarsi pacchetti l'uno all'altro.  
+La rete che ne viene fuori è molto complessa. Evoluzione guidata dall'economia e dalle politiche nazionali.
+
+**Internet**->
+
+1. è un insieme mondiale di reti interconnesse (internetworks) che collaborano tra loro per scambiarsi informazioni utilizzando IP.
+2. Non appartiene a nessuno
+3. Si basa su tech e standard coerenti e riconosciuti
+4. IEFT, ICANN, IAB
+
+<p align="center">
+  <img src="./assets/reti9.png" alt="lan" />
+</p>
+
+Al "centro": poche reti molto complesse
+
+- `tier-1` ISP commerciali, nazionale, internazionale
+- `content provider networks`: reti private che collegano i loro data center a Internet anche bypasando ISP tier-1 e regionali.
+
+### IETF/RFC/ICANN
+
+- `Internet Engineering task Force (IEFT)`  
+  L'organismo che studia e sviluppa i protocolli in uso su Internet. Si basa su gruppi di lavoro a cui chiunque può accedere.
+  RFC/STD (Request for Comments e STanDards): i documenti ufficiali che descrivono i ptotocolli usati in Internet. Sono pubblicamente accessibili in rete.
+
+- `Internet Corporation for Assigned Names and Numbers (ICANN)`  
+  Cordina il sistema dei nomi di dominio (DNS), assegna i gruppi di indirizzi di rete, identificativi di protocollo e ha funzioni di controllo(blando) dello sviluppo di internet.
+
+- `World Wide Web Consortium (W3C)`  
+  Comunità internazionale che sviluppa standard aperti per favorire lo sviluppo del Web
