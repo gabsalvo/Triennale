@@ -102,3 +102,19 @@ Utilizzando una rete gestita da un provider di servizi internet (ISP) commercial
 <p align="center">
   <img src="./assets/reti7.png" alt="lan" />
 </p>
+
+### Rete GARR
+
+Interconnette le uni, biblioteche, centri di ricerca, musei, scuole e altri luoghi in cui si fa istruzione, scienze e cultura ecc ecc. L'infrastruttura in fibra ottica e si sviluppa su circa 15.000 km tra collegamenti di dorsale e di accesso.
+Capacità odierna delle singole tratte della dorsale arriva a _200GBps_
+_100 punti di presenza_ distribuiti capillari nel territorio.
+
+### Rete di area metropolitana MAN
+
+Rete di computer che collega al'interno di un area metropolitana.
+
+- più grande id una LAN, più città e paesi , ma più piccolà di una WAN.
+
+<p align="center">
+  <img src="./assets/reti8.png" alt="lan" />
+</p>
