@@ -76,3 +76,17 @@ collega più di due punti di terminazione (usata nelle dorsali internet)
   <p align="center">
     <img src="./assets/reti4.png" alt="lan" />
   </p>
+
+### Interconnesione di Reti
+
+Solitamente, lo scenario è varie LAN interconnesse da LAN.
+Esempio:  
+ reti locali nelle sedi di aziende, dislocate sul territorio nazionale.  
+ Genera così una rete internet privata che interconnette le reti locali dei vari uffici
+
+ <p align="center">
+  <img src="./assets/reti5.png" alt="lan" />
+</p>  
+<p align="center">
+  <img src="./assets/reti6.png" alt="lan" />
+</p>
