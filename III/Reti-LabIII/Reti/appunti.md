@@ -51,3 +51,7 @@ Sono o wireless o col cavo di rame.
 <p align="center">
   <img src="./assets/reti1.png" alt="lan" />
 </p>
+
+<p align="center">
+  <img src="./assets/reti2.png" alt="lan2" />
+</p>
