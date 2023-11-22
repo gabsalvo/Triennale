@@ -36,6 +36,7 @@ Parleremo di Internet, LAN/WAN e Interconnessione di Reti
 
 **Rete** :  
  un'interconnesione di dispositivi in grado di scambiarsi informazioni, quali sistemi terminali, router, switch e modem.  
- _I sistemi Terminali_ sono gli _host_ (pc, tablet, laptop)  
- _I dispositivi di internconnesione_ ->  
+ _I sistemi Terminali_ sono gli _host_ (pc, tablet, laptop)
+
+_I dispositivi di internconnesione_ ->  
  Router (dispositivi che interconnettono reti) / Switch (collegano più host localmente)
