@@ -167,3 +167,7 @@ Prevede maggior comunicazione e confronto con il committente.
 Guidato dai casi d'uso e dall'analisi dei rischi, incentrato sull'architettura di massima e lasciare i dettagli per dopo. Così si ha subito una visione generale del sistema facilemnte adattabile al cambiamento dei requisiti.
 
 - Iterativo incrementale
+
+<p align="center">
+  <img src="./assets/Is-2-11.png" alt="is" />
+</p>
