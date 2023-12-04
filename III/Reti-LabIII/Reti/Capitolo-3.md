@@ -115,6 +115,74 @@ un set di protocolli è aperto se : i dettagli del protocollo sono disponibili p
 - La semantica del messaggio
 - Le azioni da intraprendere dopo la ricezione di un msg
 
+#### Protocol Stack
+
 <p align="center">
   <img src="./assets/rt3-2.png" alt="lan" />
+</p>
+
+#### Gerarchia di Strati (Layers)
+
+<p align="center">
+  <img src="./assets/rt3-3.png" alt="lan" />
+</p>
+
+### Strati nel modello ISO/OSI
+
+1. Livello fisico
+2. Livello di collegamento
+3. Strato di rete
+4. Strato di Trasporto
+5. Strato di Sessione
+6. Strato di presentazione
+7. Strato di applicazione
+
+#### Collegameto tra end-systems
+
+<p align="center">
+  <img src="./assets/rt3-4.png" alt="lan" />
+</p>
+
+### Modalità di servizio
+
+1. Connection oriented:
+
+- Associazione logica tra due o più sistemi al fine di trasferire dati
+
+- Gestione della connesione:
+  - instaurazione della connesione
+  - Trasferimenti dei dati
+  - Chiusura della connesione
+
+2. Connection-less
+
+- I dati vengono trasferiti senza stabilire una connesione
+
+### Flusso dell'informazione
+
+Per la rete, l'informazione ha origine a livello applicativo, l'informazione discende i vari livelli fino alla trasmissione sul canale fisico. Ogni livello aggiunge all'informazione del livello superiore una propria sezione informativa (header che contiene informazioni riguardanti esclusivamete quel livello). Per dati ricevuti si segui il cammino inverso. Ogni livello fa incapsualmento su dati già incapsulati dal dato precedente.
+Il processo reversibile, si possono estrapolare i dati.
+
+### Incapsulamento
+
+<p align="center">
+  <img src="./assets/rt3-5.png" alt="lan" />
+</p>
+
+### Incapsulamento dei Dati
+
+<p align="center">
+  <img src="./assets/rt3-6.png" alt="lan" />
+</p>
+
+### Stack TCP/IP
+
+- É una famiglia di protocolli attualmente usata in Internet. Si tratta di una gerarchia di protocolli, ciascuno dei quali fornisce funzionalità specifiche.
+
+- Il termine gerarchia significa che ciascun protocollo di livelo superiore è supportat dai servizi forniti dai protocolli di livello inferiore.
+
+- Definita in origine in termini di quattro livelli software soprastanti a un livello hardware, la pila TCP/IP è oggi intesa come composta di cinque livelli.
+
+<p align="center">
+  <img src="./assets/rt3-7.png" alt="lan" />
 </p>
