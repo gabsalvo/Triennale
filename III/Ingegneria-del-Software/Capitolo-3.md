@@ -172,15 +172,52 @@ essere inferiore a 3 secondi
 
 Difetti da evitare in un documento dei requisiti
  Omissioni (incompletezze)
- Mancata presenza di un requisito (incompletezza)
+Mancata presenza di un requisito (incompletezza)
  Inconsistenze
- Contraddizione fra i vari requisiti o dei requisiti rispetto all’ambiente
+Contraddizione fra i vari requisiti o dei requisiti rispetto all’ambiente
 operativo
  Ambiguità
- Requisiti con significati multipli
+Requisiti con significati multipli
  Sinonimi e omonimi
- Termini diversi con il medesimo significato e termini uguali con
+Termini diversi con il medesimo significato e termini uguali con
 differenti significati
  Presenza di dettagli tecnici
  Ridondanza
- Può esserci ridondanza, ma solo tra sezioni diverse
+Può esserci ridondanza, ma solo tra sezioni diverse
+
+<p align="center">
+  <img src="./assets/Is-3-12.png" alt="is" />
+</p>
+
+### Negoziazione: MoSCoW
+
+MoSCoW: tecnica per dare priorità ai requisiti, che sono divisi nelle
+classi:
+◦ Must have (Requisiti obbligatori)
+◦ Irrinunciabili per il cliente
+◦ Should have (Requisiti desiderabili)
+◦ Non necessari, ma utili
+◦ Could have (Requisiti opzionali)
+◦ Relativamente utili, da realizzare se c’è tempo
+◦ Want to have (Requisiti postponibili)
+◦ Contrattabili per successive versioni
+
+#### Gestione: tracciabilità
+
+La tracciabilità è la capacità di descrivere e seguire la vita di un requisiito del processo di sviluppo.
+
+Mappa tra requisiti e componenti del sistema, codice, test
+
+Strumenti CASE per la gestione dei requsiiti.
+
+<p align="center">
+  <img src="./assets/Is-3-13.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-3-14.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-3-12.png" alt="is" />
+</p>
