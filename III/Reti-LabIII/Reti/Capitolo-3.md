@@ -186,3 +186,27 @@ Il processo reversibile, si possono estrapolare i dati.
 <p align="center">
   <img src="./assets/rt3-7.png" alt="lan" />
 </p>
+
+### Comunicazione in una internet
+
+<p align="center">
+  <img src="./assets/rt3-8.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt3-9.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt3-10.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt3-11.png" alt="lan" />
+</p>
+
+### ISO/OSI vs TCP/IP
+
+<p align="center">
+  <img src="./assets/rt3-12.png" alt="lan" />
+</p>

@@ -47,7 +47,7 @@ Meccanismi principali:
 Risorse end-end allocate e risrvate alla 'comnicazione' tra sorgente e destinazione.
 
 <p align="center">
-  <img src="./assets/rt2-1.png" alt="lan" />
+  <img src="./assets/rt-2-1.png" alt="lan" />
 </p>
 
 #### Commutazione di circuito: FDM e TDM
@@ -157,7 +157,7 @@ Quantità di dati che possono essere trasmessi con successo dalla sorgente alla 
 - Throughputm < trasmission rate
 
 <p align="center">
-  <img src="./assets/rt2-7.png" alt="lan" />
+  <img src="./assets/rt-2-7.png" alt="lan" />
 </p>
 
 - Il throughput dipende sia dalla velocità di trasmissione del collegamento ma anche dalla quantità di dati (flussi di traffico aggiuntivi rispetto a quello di interesse), effeti dei protocolli, ecc
@@ -165,11 +165,11 @@ Quantità di dati che possono essere trasmessi con successo dalla sorgente alla 
 - La definizione esatta e metodologia di misura dipendono dal sistema che stiamo osservando (System UndertTest - SUT)
 
 <p align="center">
-  <img src="./assets/rt2-8.png" alt="lan" />
+  <img src="./assets/rt-2-8.png" alt="lan" />
 </p>
 
 <p align="center">
-  <img src="./assets/rt2-9.png" alt="lan" />
+  <img src="./assets/rt-2-9.png" alt="lan" />
 </p>
 
 #### Latenza (ritardo)
@@ -188,33 +188,33 @@ I pacchetti si accodano nei buffer dei router
 - capacità del buffer è fniita
 
 <p align="center">
-  <img src="./assets/rt2-10.png" alt="lan" />
+  <img src="./assets/rt-2-10.png" alt="lan" />
 </p>
 
 <p align="center">
-  <img src="./assets/rt2-11.png" alt="lan" />
+  <img src="./assets/rt-2-11.png" alt="lan" />
 </p>
 
 <p align="center">
-  <img src="./assets/rt2-12.png" alt="lan" />
+  <img src="./assets/rt-2-12.png" alt="lan" />
 </p>
 
 #### Esempio
 
 <p align="center">
-  <img src="./assets/rt2-13.png" alt="lan" />
+  <img src="./assets/rt-2-13.png" alt="lan" />
 </p>
 
 ### Ricapitolando
 
 <p align="center">
-  <img src="./assets/rt2-14.png" alt="lan" />
+  <img src="./assets/rt-2-14.png" alt="lan" />
 </p>
 
 ### Ritardo end-to-end
 
 <p align="center">
-  <img src="./assets/rt2-15.png" alt="lan" />
+  <img src="./assets/rt-2-15.png" alt="lan" />
 </p>
 
 ### Traceroute
