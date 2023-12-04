@@ -113,7 +113,7 @@ _100 punti di presenza_ distribuiti capillari nel territorio.
 
 Rete di computer che collega al'interno di un area metropolitana.
 
-- più grande id una LAN, più città e paesi , ma più piccolà di una WAN.
+- più grande di una LAN, più città e paesi , ma più piccolà di una WAN.
 
 <p align="center">
   <img src="./assets/reti8.png" alt="lan" />
