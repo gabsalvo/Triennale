@@ -171,3 +171,102 @@ Guidato dai casi d'uso e dall'analisi dei rischi, incentrato sull'architettura d
 <p align="center">
   <img src="./assets/Is-2-11.png" alt="is" />
 </p>
+
+### Agile
+
+Meno di 50 sviluppatori è l'ideale.
+
+si basa sui principi del **Manifesto di Snowbird, feb 2001**
+
+`Comunicazione`
+
+`Semplicità`
+
+`Feedback`
+
+`Coraggio`
+
+**Concetti chiave che nascono dai processi Agile sono:**
+
+`Continuous Integration`
+
+`Continuous delivery`
+
+`DevOps`
+
+### eXtreme Programming
+
+- è un esempio di processo agile  
+  Si basa su un insieme di prassi:
+- Pianificazione flessibile
+  - basata su scenari proposti dagli utenti
+  - coinvolge i programmatori
+- Rilasci frequenti
+  - due-quattro settimane
+  - inizio di una nuova pianificaziones
+
+`Prassi di XP (continua)`
+
+- progetti semplici
+- verifica (testing)
+- Test Driven Development
+- Cliente sempre a disposizione
+- Programmazione a coppie
+- no lavoro extra
+- collettivizzazione del codice
+- code refactoring
+- daily stand up meeting
+
+### SCRUM
+
+É un processo Agile. Un processo in cui un insieme di persone si muove all'unisono per raggiungere un obiettivo predeterminato, tale obiettivo garantisce la soddisfazione delle ambizioni di squadra e delle ambizioni personali.
+
+É un processo iterativo, incrementale per lo sviluppo e gstione di ogni tipologia di prodotto.
+
+#### SCRUM: Fase 1
+
+**Pre-game phase**
+
+- **Planning sub-phase** -> Product Backlog List
+
+- **Architecture sub-phase** -> design di alto livello del sistema
+
+#### SCRUM: Fase 2
+
+**Development phase** -> sistema sviluppato attraverso una serie di Sprint.
+
+<p align="center">
+  <img src="./assets/Is-2-12.png" alt="is" />
+</p>
+
+#### SCRUM: Fase 3
+
+**Post-game phase (continene la chiusura definitiva della release)**
+La gestione conclude il processo di sviluppo e il prodotto viene preparato per il rilascio. Questo include:
+
+- integrazione
+- test
+- documentazione per l'utente
+- formazione e preparazione del materiale di marketing
+
+#### Tre ruoli: Product Owner
+
+Tale ruolo è occupato da uella persona a cui fanno riferimento tutti i soggetti interessati al progetto.
+Fa stime, aggiusta i processi che presentano difetti e di gestire l'intero prrocedimento.
+Poteri: accetta, rigetta i risultati di un lavoro.
+Termina uno sprint se necessario
+
+#### Tre ruoli: Memnro del team
+
+Costruiscono il prodotto e dicdono che fare ad ogni sprint
+7 + 2 persone
+
+#### Tre ruoli: Scrum Master
+
+supporta il team garantedno le condizioni ambientali e le motivazini necessarie ad eseguire al meglio il lavoro commissionato.
+
+#### Backlog
+
+<p align="center">
+  <img src="./assets/Is-2-13.png" alt="is" />
+</p>

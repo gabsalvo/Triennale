@@ -23,6 +23,17 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/gab/Github/Server/compiler.js",
+			"settings":
+			{
+				"buffer_size": 1914,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,16 +51,16 @@
 				"Terminus: Open Default Shell in Panel"
 			],
 			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
 				"ins",
 				"Package Control: Install Package"
 			],
 			[
 				"ope",
 				"Terminus: Open Default Shell in Panel"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			],
 			[
 				"sublimLin",
@@ -154,10 +165,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/gab/Github/Uni"
+		"/home/gab/Github/HackEd",
+		"/home/gab/Github/HackEd/src",
+		"/home/gab/Github/HackEd/src/app",
+		"/home/gab/Github/HackEd/src/app/services",
+		"/home/gab/Github/Server"
 	],
 	"file_history":
 	[
+		"/home/gab/Github/HackEd/src/app/services/custom-server.service.ts",
+		"/home/gab/Github/Triennale/III/Ingegneria-del-Software/Capitolo-2.md",
+		"/home/gab/Github/Triennale/III/Ingegneria-del-Software/Capitolo-1.md",
+		"/home/gab/Github/Triennale/III/Reti-LabIII/Reti/appunti.md",
+		"/home/gab/Github/Triennale/README.md",
+		"/home/gab/Github/Triennale/assets/scripts/change-dir.sh",
+		"/home/gab/Github/Triennale/assets/scripts/move-image-here.sh",
+		"/home/gab/Github/Triennale/.gitignore",
 		"/home/gab/Github/Second-Brain/brain-dumps/esercizi.ml",
 		"/home/gab/Github/Second-Brain/projects/triennale/bozza-di-piano.md",
 		"/home/gab/Github/Second-Brain/projects/Swot.md",
@@ -191,7 +214,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -226,12 +249,47 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/gab/Github/Server/compiler.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1913,
+								1913
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 37.0
 	},
 	"input":
 	{
@@ -274,11 +332,23 @@
 	},
 	"output.Terminus":
 	{
-		"height": 398.0
+		"height": 222.0
 	},
 	"output.Terminus 2":
 	{
 		"height": 305.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 357.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 263.0
+	},
+	"output.Terminus 5":
+	{
+		"height": 285.0
 	},
 	"output.find_results":
 	{
@@ -288,7 +358,7 @@
 	"project": "uni.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -330,7 +400,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 237.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
