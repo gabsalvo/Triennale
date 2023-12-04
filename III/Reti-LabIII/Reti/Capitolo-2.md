@@ -130,3 +130,105 @@ Come misurare le prestazioni della rete.
 - Throughput
 - Latenza
 - Prodotto rate \* ritatdo
+
+#### Larghezza di band e bit rate
+
+- **Trasmission rate**
+  quantità di dati (bits) che possono essere trasmessi ("inseriti nella linea")
+  nell'unità di tempo (bits/secondo or bps) su un certo collegamento.
+
+- **Bandwidth**
+  larghezza dell'intervallo di frequenze utilizzato dal sistema trasmissivo. Si misura in Hertz (Hz - cycles per second).
+
+- **N.B larghezza di banda e bit rate non sono la stessa cosa**
+
+- Trasmission rate dipende dalla larghezza di banda ma è influenzato anche da altri fattori, (tecnica trasmissiva usata, rumore, ecc...)
+
+- Esempio: Il rate di un link Fast Ethernet è di 100Mbps, ovvero tale rete può inviare al massimo 100Mbps
+
+#### Throughput
+
+Quantità di dati che possono essere trasmessi con successo dalla sorgente alla destinazione in un certo intervllo di tempo.
+
+- bitrate e throughput non sono la stessa cosa.
+- Th indica la velocità con cui trasferiamo i dati, al netto di perdite sulla rete, dupicazioni, protocolli
+- Il rate è una misura della potenziale velocità di un link, il th è una misura effettiva della velocità di un link
+
+- Throughputm < trasmission rate
+
+<p align="center">
+  <img src="./assets/rt2-7.png" alt="lan" />
+</p>
+
+- Il throughput dipende sia dalla velocità di trasmissione del collegamento ma anche dalla quantità di dati (flussi di traffico aggiuntivi rispetto a quello di interesse), effeti dei protocolli, ecc
+
+- La definizione esatta e metodologia di misura dipendono dal sistema che stiamo osservando (System UndertTest - SUT)
+
+<p align="center">
+  <img src="./assets/rt2-8.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt2-9.png" alt="lan" />
+</p>
+
+#### Latenza (ritardo)
+
+tempo richiesto affinchè un messaggio arrivi a destinazione dal momento in cui il primo bit parte dalla sorgente.
+
+`Da cosa è determinato il valore della latenza in una rete a commutazione di pacchetto?`
+
+#### Come si verificano ritardi e perdite?
+
+I pacchetti si accodano nei buffer dei router
+
+- Il ritardo di accodamento dipende dal tasso di arrivo dei pacchetti e dalla capacità del collegamento in uscita.
+- I pacchetti si accodano in attesa del proprio turno.
+- All'aumentare del tasso di arrivo dei pacchetti sul collegamento, il riatdo di accodamento aumenta.
+- capacità del buffer è fniita
+
+<p align="center">
+  <img src="./assets/rt2-10.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt2-11.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt2-12.png" alt="lan" />
+</p>
+
+#### Esempio
+
+<p align="center">
+  <img src="./assets/rt2-13.png" alt="lan" />
+</p>
+
+### Ricapitolando
+
+<p align="center">
+  <img src="./assets/rt2-14.png" alt="lan" />
+</p>
+
+### Ritardo end-to-end
+
+<p align="center">
+  <img src="./assets/rt2-15.png" alt="lan" />
+</p>
+
+### Traceroute
+
+É un comando che traccia un pacchetto dal tuo computer all'host e mostra anche il ritardo e il numero di passaggi (salti) necessari per raggiungerlo dal mittente per ogni passaggio.
+
+### Prodotto rate-ritardo
+
+<p align="center">
+  <img src="./assets/rt2-16.png" alt="lan" />
+</p>
+
+Il prodotto rate-ritardo è il numero massimo di bit che il link può contenere ad un certo istante.
+
+<p align="center">
+  <img src="./assets/rt2-17.png" alt="lan" />
+</p>
