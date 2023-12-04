@@ -120,3 +120,5 @@ falso in uno stato: precondizione prima di iiniziare il caso
 d’uso, postcondizioni alla fine
 
 ▪ Non sono MAI azioni
+
+### Relazione tra precondizione, postcondizione, sequenza principale e sequenza alternativa
