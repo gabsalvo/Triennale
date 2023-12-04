@@ -72,3 +72,51 @@ _Tre tipologie di attori_
 - utente umano in un determinato ruolo
 - altro sistema
 - tempo (attore speciale)
+
+**Un caso d'uso** è una funzionalità o un servizio offerto dal sistema a uno o più attori, ovvero un compito un attore può svolgere con l'aiuto del sistema ed è espressa come un insieme di scenari.
+**Uno scenario** è una sequezna di intrazioni(scambi di messaggi) tra sistema e attori
+
+<p align="center">
+  <img src="./assets/Is-4-4.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-4-5.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-4-6.png" alt="is" />
+</p>
+
+### Narrativa di un caso d'uso
+
+Documento che descrvie il modello dinmico, gli scenari rilevanti di un caso d'uso, dal punto di vista degli attori, compreso chi lo inizia, i.e. chi è l'attore principale (aka primario)
+
+**Caratteristiche**: inizio, fine, passi intermedi, condizioni eccezzionali, precondizioni, postcondizioni
+
+<p align="center">
+  <img src="./assets/Is-4-7.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-4-8.png" alt="is" />
+</p>
+
+Uno scenario è un'istanza di un caso d'uso: una sequezna di passi che introduce un risultato osservabile da uno o più attori.
+
+Gli scenari descritti dalla sequenza principale degli eventi sono quelli che portano alla postcondizione.
+
+<p align="center">
+  <img src="./assets/Is-4-9.png" alt="is" />
+</p>
+
+### Precondizioni e postcondizioni: nota importante
+
+▪ Pre- e postcondizioni sono asserzioni che devono essere
+vere in uno stato.
+
+▪ Sono quindi predicati o formule logiche che valgono vero o
+falso in uno stato: precondizione prima di iiniziare il caso
+d’uso, postcondizioni alla fine
+
+▪ Non sono MAI azioni
