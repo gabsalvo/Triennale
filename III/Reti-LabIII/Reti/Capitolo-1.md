@@ -79,7 +79,7 @@ collega più di due punti di terminazione (usata nelle dorsali internet)
 
 ### Interconnesione di Reti
 
-Solitamente, lo scenario è varie LAN interconnesse da LAN.
+Solitamente, lo scenario è varie LAN interconnesse da WAN.
 Esempio:  
  reti locali nelle sedi di aziende, dislocate sul territorio nazionale.  
  Genera così una rete internet privata che interconnette le reti locali dei vari uffici
