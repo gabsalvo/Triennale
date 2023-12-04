@@ -121,3 +121,12 @@ Risorse end-end allocate e risrvate alla 'comnicazione' tra sorgente e destinazi
 <p align="center">
   <img src="./assets/rt2-6.png" alt="lan" />
 </p>
+
+### Metriche
+
+Come misurare le prestazioni della rete.
+
+- Ampiezza di banda e bitrate
+- Throughput
+- Latenza
+- Prodotto rate \* ritatdo
