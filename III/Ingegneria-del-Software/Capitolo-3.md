@@ -136,3 +136,51 @@ Caratteristiche di qualità, del processo di sviluppo, esterne.
 </p>
 
 ### Documento dei requisiti
+
+- Elenca i requisiti del sistema da utilizzare.
+  Specifica cosa il prodotto deve fare e quali sono i vincoli che deve soddisfare.
+
+- É un contratto tra svilup e committente.
+- Specifica anche in genere una deadline per la consegna del prodotto
+
+### Analisi dei requisiti in 5 passi
+
+1. Acquisizione
+2. Elaborazione
+3. Convalida
+4. Negoziazione
+5. Gestione
+
+<p align="center">
+  <img src="./assets/Is-3-10.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/Is-3-11.png" alt="is" />
+</p>
+
+Non dovete scrivere un poema in versi, usate la
+forma assertiva:
+Il <sistema> deve <funzionalità>/<proprietà>
+Esempi:
+◦ Il sistema deve gestire tutti i registratori di cassa del negozio
+◦ Il sistema deve stampare la sintesi degli incassi della giornata
+◦ A fine giornata il sistema deve elencare quali sono gli articoli da
+reintegrare in base alle vendite
+◦ Il tempo di risposta del sistema a qualunque interrogazione deve
+essere inferiore a 3 secondi
+
+Difetti da evitare in un documento dei requisiti
+ Omissioni (incompletezze)
+ Mancata presenza di un requisito (incompletezza)
+ Inconsistenze
+ Contraddizione fra i vari requisiti o dei requisiti rispetto all’ambiente
+operativo
+ Ambiguità
+ Requisiti con significati multipli
+ Sinonimi e omonimi
+ Termini diversi con il medesimo significato e termini uguali con
+differenti significati
+ Presenza di dettagli tecnici
+ Ridondanza
+ Può esserci ridondanza, ma solo tra sezioni diverse
