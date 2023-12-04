@@ -63,7 +63,7 @@ narrative associate ai casi d’uso
 
 descrive i requisiti funzionali del sistema  
 _Cattura le funzionalità che un sistema deve offrire, visto
-dall’esterno: _
+dall’esterno:_
 i compiti che un utente può realizzare con l’aiuto del sistema.  
 _Un attore è un’entità esterna al sistema, che interagisce_  
 direttamente con esso in un determinato ruolo  
