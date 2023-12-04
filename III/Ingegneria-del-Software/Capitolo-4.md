@@ -55,19 +55,20 @@ comportamento (dinamica)
 
 _Modellazione dei Requisiti_:
 aiuta a raccogliere i requisiti funzionali, elaborarli e
-documentarli
- Modello statico:
-diagramma dei casi d’uso
- Modello dinamico:
+documentarli  
+_Modello statico:_  
+diagramma dei casi d’uso  
+_Modello dinamico_:  
 narrative associate ai casi d’uso
 
-escrive i requisiti funzionali del sistema
- Cattura le funzionalità che un sistema deve offrire, visto
-dall’esterno:
-i compiti che un utente può realizzare con l’aiuto del sistema.
- Un attore è un’entità esterna al sistema, che interagisce
-direttamente con esso in un determinato ruolo
- Tre tipologie di attori
--utente umano in un determinato ruolo
--altro sistema
--tempo (attore speciale)
+descrive i requisiti funzionali del sistema  
+_Cattura le funzionalità che un sistema deve offrire, visto
+dall’esterno: _
+i compiti che un utente può realizzare con l’aiuto del sistema.  
+_Un attore è un’entità esterna al sistema, che interagisce_  
+direttamente con esso in un determinato ruolo  
+_Tre tipologie di attori_
+
+- utente umano in un determinato ruolo
+- altro sistema
+- tempo (attore speciale)
