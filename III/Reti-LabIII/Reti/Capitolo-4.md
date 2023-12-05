@@ -232,3 +232,54 @@ http://<host>:<port>/<path>?<query>
 
 - <query> stringa di informazioni che deve essere interpretata dal server
   <http://www.esempio.com/scarpe?ordina=prezzo>
+
+### URL Assolute e Relative
+
+- Le url possono essere assolute o relative
+
+- _URL assoluta:_ identifica una risorsa indipendentemente dal contesto in cui è usata
+
+- _URL relativa:_ informazioni per identificare una risorsa in relazione ad un'altra URL
+
+### Lo strato applicativo HTTP
+
+**HTTP -> HyperText Transfer Protocol**
+
+**Il protocollo http:client/server**
+
+- _Client HTTP_
+
+  - programma che stabilisce una connessione con un server HTTP e invia una richiesta per effettuare operazioni su risorse web
+  - browser che richiede, riceve e visualizza oggetti web.
+
+- _Service HTTP_
+  - programma che accetta connesioni per servire richieste inviando messaggi di risposta
+  - Es. Server Web che ospita risorse Web, indirizzabili tramite URL
+
+<p align="center">
+  <img src="./assets/rt4-12.png" alt="lan" />
+</p>
+
+### Il protocollo HTTP
+
+\*É un protocollo di tipo richiesta/risposta\*
+
+- la connesione viene iniziata dal client, che invia un messaggio di richiesta (request).
+- Il server risponde con un messaggio di risposta (response)
+  _Protocollo stateless (senza memoria di stato)_
+- le coppie richiesta/risposta sono indipendenti
+- ogni richiesta viene eseguita indipendentemente da quelle che l'hanno preceduta
+  _Usa TCP (connection-oriented)_
+
+<p align="center">
+  <img src="./assets/rt4-14.png" alt="lan" />
+</p>
+
+### Connessione persistente e non persistente
+
+- _connessione_: un circuito logico di livello trasporto stabilito tra due programmi applicativi per comunicare tra loro
+
+- _Connesione non persistente_: (http1.0: RFC 1945): viene stabilita un connessione TCP separata per recuperare ciascun URL.
+
+- _Connesione persistente:_ (http1.1: RFC 2616): se non diversamente indicato, il client può assumere che il server manterrà una connesione persistente.
+  Lo standard
