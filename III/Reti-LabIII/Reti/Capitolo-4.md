@@ -198,3 +198,37 @@ alcune applicazioni richiedono un certo throughput per essere efficaci.
 <p align="center">
   <img src="./assets/rt4-11.png" alt="lan" />
 </p>
+
+### URI, URL, URN
+
+**Uniform Resource Identifier (URI)**
+
+Una URI è una forma generale per identificare una risorsa presente sulla rete (vedi IETF rfc 2396), it is a compact string of characters for identifying an abstract or physical resource.
+
+- _Uniform_: uniformità della sintassi dell'identificatore anche se i meccanismi per accedere alle risorse possono variare.
+
+- _Resource:_ qualsiasi cosa abbia un'identità
+
+- _Identifier:_ informazioni che permettono di distringuere un oggetto da altri (entro un ambito definito di identificazione)
+  Ci sono due tipi di URI:
+- **URL** -> identifica risorse by access mechanism
+- **URN** -> glob unici e persistente anche quando la risorsa cessa di esistere.
+
+### URL
+
+URL
+• Sintassi URL (RFC1738) – Internet Syntax
+<scheme>://<user>:<password>@<host>:<port>/<path>
+
+- user e password, opzionali e deprecati
+- scheme : protocollo di accesso alla risorsa
+- host : nome di dominio di un host o indirizzo IP (in notazione decimale)
+- port : numero di porta del server
+- path: contiene dati specifici per l'host e identifica la risorsa nel contesto di quello schema e host
+
+### HTTP URL
+
+http://<host>:<port>/<path>?<query>
+
+- <query> stringa di informazioni che deve essere interpretata dal server
+  <http://www.esempio.com/scarpe?ordina=prezzo>
