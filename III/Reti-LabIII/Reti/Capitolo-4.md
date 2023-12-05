@@ -121,3 +121,80 @@
 <p align="center">
   <img src="./assets/rt4-5.png" alt="lan" />
 </p>
+
+Due processi comunicano mandando dati alla socket e leggendoli da questa:
+
+- Connesione logica tra i due processi, l'invio/ricezione dei dati è responsabilità dei restanti quattro livelli dello stack TCP/IP nel sistema operativo.
+
+- Socket è un'astrazione. Si tratta di una struttura dati utilizzata dal programma applicativo. La comunicazione tra un processo client e server è realizzata attraverso la comunicazione tra i due socket (endpoint della comunicazione, socket = connettore, presa)
+- Il client considera la socket come l'entità che riceve le richieste e fornisce le risposte, per il server la socket è l'entità da cui riceve le richieste e a cui inviare le risposte.
+
+<p align="center">
+  <img src="./assets/rt4-6.png" alt="lan" />
+</p>
+
+### Indirizzare processi
+
+- Per ricevere messaggi, un processo deve avere un identificatore
+- La macchina host ha un indirizzo IP di 32 bit
+- L'identificativo include l'indirizzo IP e numero di porta associate al process
+- Esempi di numeri di porta:
+  - HTTP server 80,
+  - mail server 25
+    Per inviare messaggi HTTP al server web
+
+### Esempio di API: TCP
+
+<p align="center">
+  <img src="./assets/rt4-7.png" alt="lan" />
+</p>
+
+### Uso dei servizi di transporto
+
+Una coppia di processi fornisce servizi agli utenti di internet, siano questi persone o applicazioni.  
+La coppia di processi, tuttavia, deve utilizzare i servizi offerti dal livello trasporto per la comunicazione, poichè non vi è una comunicazion fisica a livello applicazione.
+Nel livello trasporto della pila di protocolli TCP/IP sono previsti due protocolli principali.
+
+- **TCP**: servizio connection-oriented, basato su stream
+- **UDP:** servizio connection-less, orientato al messaggio
+
+### Concetti generali
+
+Applicazioni di rete realizzate "sopra" servizi Internet di trasporto dati
+
+<p align="center">
+  <img src="./assets/rt4-8.png" alt="lan" />
+</p>
+
+#### Che tipo di trasporto è richiesto da un'applicazione?
+
+**Throughput**
+Tasso al quale il processo mittente può inviare i bit al processo ricevente.
+alcune applicazioni richiedono un certo throughput per essere efficaci.
+
+**Perdita dei dati**
+
+**Sensibilità ai ritardi**
+
+### Trasporto richiesto da applicazioni comuni
+
+<p align="center">
+  <img src="./assets/rt4-9.png" alt="lan" />
+</p>
+
+### Applicazioni Internet
+
+<p align="center">
+  <img src="./assets/rt4-10.png" alt="lan" />
+</p>
+
+## Il Web: Terminologia
+
+- Pagina Web: consiste di 'oggetti' formati da:
+  - un file HTML di base
+  - diversi oggetti referenziati (altre pagine, immagine JPEG, file audio)
+  - Ciascun oggetto è indirizzabile tramite una URL (Uniform Resource Locator)
+
+<p align="center">
+  <img src="./assets/rt4-11.png" alt="lan" />
+</p>
