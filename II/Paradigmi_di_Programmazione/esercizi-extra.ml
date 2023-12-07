@@ -37,3 +37,17 @@ LetRec2 (
 )
 *)
 
+type exp = ... | LetRec2 of ide * ide * exp * ide * ide * exp * exp
+
+let rec eval exp env = match exp with
+  ...
+  | LetRec2(f1, x1, body1, f2, x2, body2, exp) ->
+      let env1 = bind env f1 (RecClosure(f1, x1, body1, env)) in
+      let env2 = bind env1 f2 (RecClosure(f2, x2, body2, env1)) in
+      let env1Final = bind env2 f1 (RecClosure(f1, x1, body1, env2)) in
+      let env2Final = bind env1Final f2 (RecClosure(f2, x2, body2, env1Final)) in
+      eval exp env2Final
+  ...
+
+
+
