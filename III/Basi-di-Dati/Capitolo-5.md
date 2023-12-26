@@ -247,3 +247,223 @@ SELECT lista attributi
 FROM Tab1 JOIN Tab2
 USING (attr1,attr2,…)
 ```
+
+### OUTER JOIN
+
+• Quando vengono correlate mediante una join delle tabelle con colonne
+contenenti dati in comune, è possibile che un valore sia presente in una delle
+colonne e non nell’altra.
+• Effettuando un equi-join la riga corrispondente a tale valore viene scartato.
+• In alcuni casi invece può essere necessario mantenere questi valori. Per fare
+questo si deve effettuare un outer join.
+
+```sql
+Select lista_attributi
+From Tab1 LEFT [OUTER] JOIN Tab2
+
+Select lista_attributi
+From Tab1 RIGHT [OUTER] JOIN Tab2
+
+Select lista_attributi
+From Tab1 FULL [OUTER] JOIN Tab2
+```
+
+## SUBQUERY
+
+è un comando select racchiuso tra parentesi tonde, inserito all'interno di un comando SQL.
+
+<p align="center">
+  <img src="./assets/bd-5-8.png" alt="is" />
+</p>
+
+### Tipi di Subquery
+
+<p align="center">
+  <img src="./assets/bd-5-9.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-5-10.png" alt="is" />
+</p>
+
+Nelle select semplici non è possibile utilizzare contemporaneamente funzioni di gruppo e funzioni su singole righe. Questo viene reso possibile mediante l’uso delle subquery.
+
+<p align="center">
+  <img src="./assets/bd-5-11.png" alt="is" />
+</p>
+
+### Subquery + Join
+
+<p align="center">
+  <img src="./assets/bd-5-12.png" alt="is" />
+</p>
+
+### Subquey Annidate
+
+<p align="center">
+  <img src="./assets/bd-5-13.png" alt="is" />
+</p>
+
+### Interrogazioni Nidificate, commenti
+
+• La forma nidificata è meno dichiarativa, ma talvolta più leggibile (richiede meno variabili)
+
+• La forma piana e quella nidificata possono essere combinate
+
+• Le subquery non possono contenere operatori insiemistici
+
+• Il problema si supera facilmente con intersezione e differenza (per cui esiste una forma alternativa) ma non sempre per l’unione
+
+• regole di visibilità simili a quelle delle procedure nei linguaggi di
+programmazione:
+
+- non è possibile fare riferimenti a variabili definite in blocchi più interni
+- se un nome di variabile è omesso, si assume riferimento alla variabile più “vicina”
+
+• in un blocco si può fare riferimento a variabili definite in blocchi più
+esterni
+
+<p align="center">
+  <img src="./assets/bd-5-14.png" alt="is" />
+</p>
+
+Query nidificate possono essere “meno dichiarative” in un certo senso ma spesso sono più facilmente interpretabili, in quanto si possono suddividere in blocchi più semplici da interpretare.
+
+• L’utilizzo di variabili deve rispettare le regole di visibilità cioè, una variabile può essere usata solo all’interno dello stesso blocco e in un blocco più interno.
+
+• Comunque, query nidificate complesse possono essere di difficile comprensione, soprattutto quando si usano molte variabili comuni tra blocchi diversi.
+
+## Quantificazione
+
+Tutte le interrogazioni su di una associazione multivalore vanno quantificate
+
+<p align="center">
+  <img src="./assets/bd-5-15.png" alt="is" />
+</p>
+
+• Gli studenti che hanno preso sempre (o solo) 30: universale
+• Gli studenti che hanno preso qualche (almeno un) 30: esistenziale
+• Gli studenti che non hanno preso qualche 30 (senza nessun 30): universale
+• Gli studenti che non hanno preso sempre 30: esistenziale
+
+- Universale negata = esistenziale
+
+- Esistenziale negata = universale
+
+### ANY , ALL , EXISTS
+
+<p align="center">
+  <img src="./assets/bd-5-16.png" alt="is" />
+</p>
+
+#### Regole per subquery di confronto quantificato
+
+- La subquery deve essere di colonna
+- La subquery deve essere inserita DOPO l'operatore di confronto quantificato
+- Non è ammesso il confronto tra due subquery
+- Nella subquery non è possibile utilizare le clausole having e group by
+
+### EXISTS
+
+<p align="center">
+  <img src="./assets/bd-5-17.png" alt="is" />
+</p>
+
+Occorre un meccanismo per rendere la più flessibile la clausola exists, rendendo le condizioni della subquery dipendenti dalla tupla della query principale.
+
+- Si introduce un legame fra la query e la subquery (query correlate)
+- Si definisce una variabile (un alias) nella query esterna, che si utilizza nella subquery
+
+<p align="center">
+  <img src="./assets/bd-5-18.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-5-19.png" alt="is" />
+</p>
+
+### Semantica delle espressioni correlate
+
+<p align="center">
+  <img src="./assets/bd-5-20.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-5-21.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-5-22.png" alt="is" />
+</p>
+
+## La quantificazione UNIVERSALE
+
+### <> ALL , ANY
+
+## Unione, Intersezione, Differenza
+
+A volte può essere utile poter ottenre un'unica tabella contente alcuni dei dati contenuti in due tabelle omogenee, ossia con attributi definiti sullo stesso dominio.
+
+### Union
+
+```sql
+SELECT padre as genitore, figlio
+FROM paternità
+UNION
+SELECT madre as genitore, figlio
+FROM maternità
+```
+
+### Except
+
+```sql
+SELECT Nome
+FROM Impiegato
+EXCEPT
+SELECT Cognome as Nome
+FROM Impiegato
+```
+
+oppure
+
+```sql
+SELECT nome
+FROM Impiegato
+WHERE nome<>All[not in]
+(SELECTcognome
+FROM Impiegato)
+```
+
+## SQL PER LA MODIFICA DI BASI DI DATI
+
+Introduciamo ora il Data Manipulation Language (DML) ossia il linguagio SQL che serve per inserire, modificare e cancellare i dati del database, ma anche per interrogare il database, ossia estrarre i dati dal database.
+
+Inizialmente descriveremo le istruzioni che servono a inserire, cancellare e modificare i dati.
+
+- INSERT INTO
+
+- UPDATE
+
+- DELETE FROM
+
+### Insert semplice
+
+```sql
+INSERT INTO Esami (Corso, Matricola, Voto)
+VALUES (‘DB1’, ‘123456’, 27)
+```
+
+### Delete
+
+```sql
+DELETE FROM Esami
+WHERE Matricola = ‘123456'
+```
+
+### Update
+
+```sql
+UPDATE Aule
+SET Aula = 7
+WHERE Aula = 3
+```
