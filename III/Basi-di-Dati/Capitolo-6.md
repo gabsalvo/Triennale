@@ -198,3 +198,30 @@ Se è espresso coem vincolo di riga, può coinvolgere solo la'attributo su cui �
 <p align="center">
   <img src="./assets/bd-6-6.png" alt="is" />
 </p>
+
+### Reazione alla violazione
+
+Quando si crea un vincolo foreign key in una tabella,in SQL standard si può specificare l'azione da intraprendere quando delle righe nella tabella riferita vengono cancellate o modificate.
+
+Tali reazioni alla violazione vengono dichiarate al momento della definizione dei vincoli di foreign key rispettivamente mediante i comandi:
+`ON DELETE` e `ON UPDATE`
+
+<p align="center">
+  <img src="./assets/bd-6-7.png" alt="is" />
+</p>
+
+### Reazioni alla violazione on delete
+
+<p align="center">
+  <img src="./assets/bd-6-8.png" alt="is" />
+</p>
+
+### Reazioni alla violazione on update
+
+<p align="center">
+  <img src="./assets/bd-6-9.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-6-10.png" alt="is" />
+</p>
