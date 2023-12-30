@@ -262,3 +262,157 @@ WHERE (MATRICOLA>10000) AND (MATRICOLA<20000)
 
 - Indice: struttura che contiene informazioni sulla posizione di memorizzazione delle tuple sulla base del valore del campo chiave
   La realizzazione degli indici avviene tipicamente attraverso l'utilizzo di strutture ad albero multi-livello
+
+### Nested Loop con Indice (IndexNestedLoop)
+
+Data una tupla della relazione esterna R, la scansione completa della relazione interna S può essere sostituita da una scansione basata su un indice costruito sugli attributi di join di S
+
+<p align="center">
+  <img src="./assets/bd-7-14.png" alt="is" />
+</p>
+
+L'accesso alla relazione interna mediante indice porta in generalea ridurre di molto i costi di esecuzione del Nested Loops Join.
+
+### Sort-merge
+
+Il sort-merge Join è applicabile quando entrambi gli insiemi di tuple in input sono ordinati sugli attributi di join.
+
+- Per R (S) ciò è possibile se:
+
+  - R(S) è fisicamente ordinata sugli attributi di join
+  - Esiste un indice sugli attributi di join di R (S)
+
+      <p align="center">
+      <img src="./assets/bd-7-15.png" alt="is" />
+    </p>
+
+      <p align="center">
+      <img src="./assets/bd-7-16.png" alt="is" />
+    </p>
+
+### Riepilogo
+
+<p align="center">
+  <img src="./assets/bd-7-17.png" alt="is" />
+</p>
+
+## Piani di accesso
+
+<p align="center">
+  <img src="./assets/bd-7-18.png" alt="is" />
+</p>
+
+### Ottimizzatore delle interrogazioni
+
+- L'ottimizzazione delle interrogazioni è fondamentale nei DBMS
+
+- É necessario conoscere il funzionamento dell'ottimizzatore per una buona progettazione fisica.
+
+- Obiettivo dell'ottimizzatore
+  - scegliere il piano con costo minimo, fra possibili piani alternativi, usando le statistiche che presenti nel catalogo.
+
+### Fasi del processo di ottimizzazione
+
+<p align="center">
+  <img src="./assets/bd-7-19.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-20.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-21.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-22.png" alt="is" />
+</p>
+
+### Realizzazione degli operatori relazionali
+
+Si considerano i seguenti operatori:
+
+- Proiezione
+- Selezione
+- Raggruppamento
+- Join
+
+Un operatore può essere realizzato con algoritmi diversi, codificati in opportuni operatori fisici.
+
+### Operatori fisici
+
+Gli algoritmi per realizzare gli operatori relazionali si codificano in opportuni operatori fisici.
+
+- Ad esempio TableScan (R), è l'operatore fisico per la scansione di R.
+  Ogni operatore fisico è un iteratore, un oggetto con metodi:
+  open,
+  next,
+  isDone,
+  reset,
+  close
+
+realizzati usando gli operatori della macchina fisica, con next che ritorna un record.
+
+Come esempio di operatori fisici prenderemo in considerazione quelli del sistema JRS e poi vedremo come utilizzarli per descrivere un algoritmo per eseqguire un'interrogazione SQL (piano di accesso)
+
+### Interfaccia a Iteratore
+
+- I DBMS definiscono glin oepratori mediante un'interfaccia a 'iteratore', i cui metodi principali sono:
+- open : inizializza lo stato dell'operatore, allocare buffer per gli input e l'output, richiama ricorsivamente open sugli operatori figli; viene anche usato per passare argomenti
+- next : usato per richiedere un'altra tupla del risultato dell'operatore;
+  L'implementazione di questo metodo include next sugli operatori figli e codice specifico dell'operatore.
+- close : usato per terminare l'esecuzione dell'operatore, con conseguente rilascio delle risorse ad esso allocate.
+- isDone : indica se vi sono ancora valori da leggere, in genere è booleano.
+
+### Piani di accesso
+
+Un piano di acesso è un algoritmo per eseguire un'interrogazione usando gli operatori fisici disponibili
+
+<p align="center">
+  <img src="./assets/bd-7-23.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-24.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-25.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-26.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-27.png" alt="is" />
+</p>
+
+### Esempi: tableScan e SortScan
+
+<p align="center">
+  <img src="./assets/bd-7-28.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-29.png" alt="is" />
+</p>
+
+### Piani di accesso
+
+Un piano di accesso è un algoritmo per eseguire un'interrogazione usando gli operatori fisici disponibili.
+
+<p align="center">
+  <img src="./assets/bd-7-30.png" alt="is" />
+</p>
+
+#### Esempio di piano di accesso: SFW
+
+<p align="center">
+  <img src="./assets/bd-7-31.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-7-32.png" alt="is" />
+</p>
