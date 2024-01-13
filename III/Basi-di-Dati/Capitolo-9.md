@@ -246,9 +246,286 @@ Un algoritmo efficiente per risolvere il problema dell'implicazione senza calcol
 
 **Teorema/osservazione** F |- X -> Y <=> Y belongs X_f ^+
 
-### Algoritmo per calcolare la chiusura di X rispetto a F
+### Algoritmo per calcolare la chiusura di X rispetto a F - Idea
 
-Sia X un insieme di attributi e F un insieme di dipendenze. Vogliamo calcolare la chiusrua di X rispetto ad F.
+Sia X un insieme di attributi e F un insieme di dipendenze. Vogliamo calcolare la chiusura di X rispetto ad F.
 
 1. Inizializziamo X^+ con l'insieme X
 2. Se fra le dipendenze di F c'è una dipendenza Y -> A con y includes= X^+ allora si inserisce A in X^+, ossia X^+ = X^+ unito {A}
+3. Si ripete il passo 2 fino a quando non ci sono altri attributi da aggiungere a X^+
+4. Si dà in output X_F^+ = X^+
+
+#### Chiusura lenta
+
+Un semplice algoritmo per calcolare X^+ (ne esiste uno migliore di complessità di tmepo O(ap))
+
+<p align="center">
+  <img src="./assets/bd-9-6.png" alt="is" />
+</p>
+
+L'algoritmo termina perchè ad ogni passo viene aggiunto un nuovo attributo a X^+. Essendo gli attributi in numero finito, a un certo punto l'algoritmo deve fermarsi.
+
+Per dimostrare la correttezza, si dimostra che X_F^\* = X^+
+
+<p align="center">
+  <img src="./assets/bd-9-7.png" alt="is" />
+</p>
+
+### Chiavi e attributi primi
+
+**Definizione:** Dato lo schema R<T, F> diremo che un insieme di attributi W includes= T è una chiave candidata di R, se:
+
+- W -> T belongs F^+ (W superchiave)
+- Per ogni V includes W, V -> T doesnt belong to F^+ (se V includes W, V non superchiave)
+
+_Attributo primo:_ attributo che appartiene ad almeno una chiave.
+
+**Complessità:**
+Il problema di trovare tutte le chiavi di una relazione richiede un algoritmo di complesità esponenziale nel caso peggiore.
+Il problema di controllare se un attributo è NP-completo.
+
+### Proprietà interessanti per trovare tutte le chiavi
+
+L'algoritmo per trovare tutte le chiavi si basa su due proprietà:
+
+1. Se un attributo A di T non appare a destra di alcuna dipendenza in F, allora A appartiene ad ogni chiave di R.
+
+2. Se un attributo A di T appare a destra di qualche dipendenza in F, ma non appare a sinistra di alcuna dipendenza non banale, allora A non appartiene ad alcuna chiave.
+
+## Parte III Copertura Canonica
+
+**Definizione:** Due insiemi di DF, F e G, sullo schema R sono equivalenti,
+F congruente a G se solo se la chiusura di F è uguale alla chiusura di G
+
+- Se F è congruente a G, alla F è una copertura di G (e G è una copertura di F)
+
+_Esempio:_ studenti(matricola, CF, Cognome, Nome, Anno)
+
+### Copertura di Insiemi di DF - Parte I - attributo estraneo
+
+<p align="center">
+  <img src="./assets/bd-9-8.png" alt="is" />
+</p>
+
+### Copertura di Insiemi di DF - Parte II - ridondante
+
+<p align="center">
+  <img src="./assets/bd-9-9.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-10.png" alt="is" />
+</p>
+
+#### Teorema
+
+Per ogni insieme di dipendenze F esiste una copertura canonica.
+
+<p align="center">
+  <img src="./assets/bd-9-11.png" alt="is" />
+</p>
+
+**Esempio**
+
+<p align="center">
+  <img src="./assets/bd-9-12.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-13.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-14.png" alt="is" />
+</p>
+
+### Riassunto
+
+<p align="center">
+  <img src="./assets/bd-9-15.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-16.png" alt="is" />
+</p>
+
+## RIEPILOGO
+
+Le ridondanze sui dati possono essere di due tipi:
+
+- Ridondanza concettuale -> non ci sono duplicazioni dello stesso dato, ma sono memorizzate informazioni che possono essere ricavate da altre già contenute nel DB.
+
+- Ridondanza logica -> esistono duplicazioni sui dati, che possono generare anomalie nelle oeprazioni sui dati.
+
+### Normalizzazione dei dati
+
+- Le dipendenze funzionali sono definite a livello di schema e non a livello di istanza
+
+- Le dipendenze funzionali hanno sempre un verso.
+
+Le dipendenze funzionali sono una generalizzazione del vincolo di chiave (e di superchiave)
+
+- Data una tabella con schema R(X) con superchiave K.
+  Esiste un vincolo di dipendenza funzionale tra K e qualsiasi attributo dello schema r.
+
+<p align="center">
+  <img src="./assets/bd-9-17.png" alt="is" />
+</p>
+
+## Decomposizione di schemi
+
+L'intuizione è che si devono estrarre gli attributi che sono determinati da attributi non chiave ovvero "creare uno schema per ogni funzione"
+
+<p align="center">
+  <img src="./assets/bd-9-18.png" alt="is" />
+</p>
+
+**Definizione:** Dato no schema R(T),
+rho = {R_1{T_1},..,R_k(T_k)} è una decomposizione di R sse T_1 U ... U T_k = T
+
+<p align="center">
+  <img src="./assets/bd-9-19.png" alt="is" />
+</p>
+
+Per eliminare anomalie da uno schema occorre decomporl in schemi più piccoli "equivalenti".
+
+- Due proprietà desiderabili di una decomposizione:
+  - conservazione dei dati (notazione semantica)
+  - conservazione delle dipendenze
+
+### Conservazione dei dati:
+
+- Decomposizioni che preservano i dati:
+
+<p align="center">
+  <img src="./assets/bd-9-20.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-21.png" alt="is" />
+</p>
+
+La decomposizione senza perdita è garantita se l'insieme degli attributi comuni alle due relazioni (X_1 intersecato X_2) è chiave per almeno una delle due relazioni decomposte.
+
+### Dimostrazione (non formale)
+
+<p align="center">
+  <img src="./assets/bd-9-22.png" alt="is" />
+</p>
+<p align="center">
+  <img src="./assets/bd-9-23.png" alt="is" />
+</p>
+
+### Decomposizioni binarie
+
+<p align="center">
+  <img src="./assets/bd-9-24.png" alt="is" />
+</p>
+
+Una decomposizione conserva le dipendenze se ciascuna delle dipendenze funzionali dellos chema originario coinvolge attributi che compaiono tutti insieme in uno degli schemi decomposti.
+
+<p align="center">
+  <img src="./assets/bd-9-25.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-26.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-27.png" alt="is" />
+</p>
+
+### Qualità delle decomposizioni
+
+Una decomposizione dovrebbe sempre soddisfare le seguenti proprietà:
+
+- la decomposizione senza perdita, che garantisce la ricostruzione delle informazioni originarie senza generazione di tuple spurie
+
+- la conservazione delle dipendenze, che garantisce il mantenimento dei vincoli di integrità originari.
+
+## Forme Normali
+
+Una forma normale è una proprietà di una base di dati relazionali che ne garantisce la "qualità", cioè l'assenza di determinati difetti.
+
+- Quando una relazione non è normalizzata:
+- presenta ridondanze
+- si presta a comportamenti poco desiderabili durante gli aggiornamenti
+
+**1FN**
+Impone una restrizione sul tipo di una relazione: ogni attributo ha un tipo elementare
+
+**2FN, 3FN e FNBC**
+-Impongono restrizioni sulle dipendenze
+
+- FNBC (Boyce-Codd) è la più naturale e la più restrittiva
+
+### Forma normale di Boyce e Codd (BCNF)
+
+Una relazione r è in forma normale di Boyce e Codd (BCNF) se, per ogni dipendenza funzionale (non banale) X -> Y definita su di essa, X contiene una chiave K di r (è una superchiave).
+
+La forma normale richiede che i concetti in una relazione siamo omogenei (solo proprietà direttamente associate alla chiave).
+
+La relazione sugli Impiegati
+
+<p align="center">
+  <img src="./assets/bd-9-28.png" alt="is" />
+</p>
+
+_Intuizione:_ se esiste in R una dipendenza X -> A non banale ed X non è chiave , allora X modella l'identità di un'entità diversa da quelle modellate dall'intera R.
+
+- Ad esempio, in
+
+<p align="center">
+  <img src="./assets/bd-9-29.png" alt="is" />
+</p>
+
+<p align="center">
+  <img src="./assets/bd-9-30.png" alt="is" />
+</p>
+
+### L'algoritmo di analisi
+
+<p align="center">
+  <img src="./assets/bd-9-31.png" alt="is" />
+</p>
+
+### Proprietà dell'algoritmo
+
+- Preserva i dati, ma non necessariamente le dipendenze
+- Esempi di decomposizioni senza perdite di dipendenze:
+<p align="center">
+ <img src="./assets/bd-9-32.png" alt="is" />
+</p>
+
+### Boyce-Codd Normal Form
+
+- Anomalia:
+- dipendenza X -> A non banale, con X non superchiave
+- X identità di un'entità con attributi X+ diversa da quelle modellate dall'intera R
+- ES:
+  `StudentiEdEsami(Matricola, Nome, Prov, AnnoNascita, Materia, Voto)`
+- con Matricola -> Nome, Prov, AnnoNascita
+- Schema in BCNF = schema privo di anomalie
+- Algoritmo di normalizzazione
+
+La terza forma normale è un target di normalizzazione che consente di ottenere automaticamente:
+
+- decomposizione senza perdita
+- decomposizioni che preservano tutte le dipendenze
+
+Una relazione r è in terza forma normale se, per ogni FD (non banale) X -> Y definita su r, è verificata almeno una delle seguenti condizioni:
+
+- X contiene una chiave K di r (come nella BCNF)
+- Oppure ogni attributo in Y è contenuto in almeno una chiave K di r
+
+**Vantiaggi**: la 3FN è sempre ottenibile, qualsiasi sia lo schema di partenza.
+COME? Algoritmo di normalizzazione in TFN
+
+**Svantaggi**: meno restrittiva della FNBC: tollera alcune ridondanze ed anomalie si dati. Certifica meno la qualità dello schema.
+
+### Definizione formale TFN
+
+<p align="center">
+ <img src="./assets/bd-9-33.png" alt="is" />
+</p>

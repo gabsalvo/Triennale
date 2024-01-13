@@ -282,4 +282,23 @@ http://<host>:<port>/<path>?<query>
 - _Connesione non persistente_: (http1.0: RFC 1945): viene stabilita un connessione TCP separata per recuperare ciascun URL.
 
 - _Connesione persistente:_ (http1.1: RFC 2616): se non diversamente indicato, il client può assumere che il server manterrà una connesione persistente.
-  Lo standard
+  - Lo standard specifica un meccanismo con cui il client e server possono indicare la chiusura della connessione TCP (Connection header field)
+  - Dopo la chiusura, il client nn deve più inviare richieste su quella connesione
+
+### Esempio: trasferimento di una pagina web
+
+<p align="center">
+  <img src="./assets/rt4-15.png" alt="lan" />
+</p>
+
+<p align="center">
+  <img src="./assets/rt4-16.png" alt="lan" />
+</p>
+
+### Connesione Persistente (HTTP 1.1)
+
+- La stessa connesione HTTP può essere utilizzata per una serie di richieste e una serie corrispondente di risposte.
+
+- Il server lascia aperta la connessione TCP dopo aver spedito la risposta e può quindi ricevere le richeiste successive sulla stessa connessione.
+
+- Il server HTTP chiude la connesione quando viene specificato nell'header del messaggio (desiderata da parte del client) oppure quando non riceve richieste per un certo intervallo di tempo (time out)
