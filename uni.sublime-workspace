@@ -116,10 +116,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/gab/Github/LaboratorioII-Gabriele-salvo/README.md",
+			"file": "/home/gab/Github/Socket-Chat-Angular/README.md",
 			"settings":
 			{
-				"buffer_size": 4986,
+				"buffer_size": 351,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
@@ -130,1221 +130,31 @@
 					1,
 					"insert",
 					{
-						"characters": "#"
+						"characters": "###"
 					},
-					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"AwAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA9wAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9gAAAAAAAAD2AAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					4,
 					1,
 					"insert",
 					{
-						"characters": " Archivio"
+						"characters": " "
 					},
-					"CQAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAAAAAADAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAAcAAAAAAAAAAAAAAAcAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAoAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAPkAAAAAAAAA+gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					5,
 					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAAoAAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAAMAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
 					"replace_view_content",
 					{
-						"content": "# Archivio\n"
+						"content": "# Angular Library for live Messaging using Socket.io\n\n## Angular app + server\n\n**To start the app**:\n\n`cd app/ && ng serve`\n\n**To start the server on your local machine (required to use the chat feature online)**:\n\n`cd server/ && node index.js`\n\n### You can find the library on [npm](https://www.npmjs.com/package/@gabriele-salvo/socket-chat-angular)\n"
 					},
-					"AQAAAAAAAAAAAAAACwAAAAAAAAAMAAAAIyBBcmNoaXZpbwoK",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					7,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					9,
-					1,
-					"",
-					null,
-					"AQAAAAwAAAAAAAAAzQUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					3,
-					"left_delete",
-					null,
-					"AwAAAOsAAAAAAAAA6wAAAAAAAAABAAAAIOoAAAAAAAAA6gAAAAAAAAABAAAAIOkAAAAAAAAA6QAAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA7AAAAAAAAADsAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					13,
-					1,
-					"insert",
-					{
-						"characters": "1."
-					},
-					"AgAAAOkAAAAAAAAA6gAAAAAAAAAAAAAA6gAAAAAAAADrAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6QAAAAAAAADpAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAOsAAAAAAAAA7AAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA6wAAAAAAAADrAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					2,
-					"left_delete",
-					null,
-					"AgAAAJwAAAAAAAAAnAAAAAAAAABLAAAARWNjbyB1bmEgZGVzY3JpemlvbmUgYnJldmUgZSBnZW5lcmFsZSBkaSBjacOyIGNoZSBpbCBwcm9ncmFtbWEgc2VtYnJhIGZhcmU6mwAAAAAAAACbAAAAAAAAAAEAAAAg",
-					"AQAAAAAAAAABAAAA5gAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					23,
-					5,
-					"left_delete",
-					null,
-					"BQAAAKAAAAAAAAAAoAAAAAAAAAABAAAAIJ8AAAAAAAAAnwAAAAAAAAABAAAALp4AAAAAAAAAngAAAAAAAAABAAAAMZ0AAAAAAAAAnQAAAAAAAAABAAAAIJwAAAAAAAAAnAAAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAoQAAAAAAAAChAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAJwAAAAAAAAAnQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAnAAAAAAAAACcAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					27,
-					1,
-					"left_delete",
-					null,
-					"AQAAAFEBAAAAAAAAUQEAAAAAAAAFAAAACiAgICA",
-					"AQAAAAAAAAABAAAAVgEAAAAAAABRAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					28,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAFEBAAAAAAAAUgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUQEAAAAAAABRAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"left_delete",
-					null,
-					"AQAAACgCAAAAAAAAKAIAAAAAAAAEAAAAICAgIA",
-					"AQAAAAAAAAABAAAALAIAAAAAAAAoAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					37,
-					2,
-					"left_delete",
-					null,
-					"AgAAAAwAAAAAAAAADAAAAAAAAABuBQAASWwgcHJvZ3JhbW1hIGltcGxlbWVudGF0byBpbiBhcmNoaXZpby5jIGFwcGFyZSBlc3NlcmUgdW4gc2lzdGVtYSBtdWx0aXRocmVhZCBjaGUgZ2VzdGlzY2UgbCdpbnRlcmF6aW9uZSB0cmEgZGl2ZXJzaSB0aHJlYWQgc2NyaXR0b3JpIGUgbGV0dG9yaS4KCkdlc3Rpb25lIGRlaSBUaHJlYWQ6IElsIHByb2dyYW1tYSBjcmVhIGUgZ2VzdGlzY2UgZHVlIHRpcGkgZGkgdGhyZWFkOiBsZXR0b3JpIGUgc2NyaXR0b3JpLiBJbCBudW1lcm8gZGkgY2lhc2N1biB0aXBvIGRpIHRocmVhZCDDqCBzcGVjaWZpY2F0byBkYWdsaSBhcmdvbWVudGkgZGVsbGEgcmlnYSBkaSBjb21hbmRvLgoKU2luY3Jvbml6emF6aW9uZTogVXRpbGl6emEgbXV0ZXggZSB2YXJpYWJpbGkgZGkgY29uZGl6aW9uZSBwZXIgc2luY3Jvbml6emFyZSBsJ2FjY2Vzc28gYSByaXNvcnNlIGNvbmRpdmlzZS4gUXVlc3RvIHByZXZpZW5lIGxlIGNvbmRpemlvbmkgZGkgZ2FyYSBlIGFzc2ljdXJhIGNoZSBpIGRhdGkgc2lhbm8gYWNjZXNzaWJpbGkgaW4gbW9kbyBjb2VyZW50ZSBlIHNpY3Vyby4KClN0cnV0dHVyYSBQcm9kdXR0b3JlLUNvbnN1bWF0b3JlOiBJbCBwcm9ncmFtbWEgc2VndWUgdW4gbW9kZWxsbyBwcm9kdXR0b3JlLWNvbnN1bWF0b3JlLCBkb3ZlIGkgdGhyZWFkIHNjcml0dG9yaSBhZ2lzY29ubyBjb21lIHByb2R1dHRvcmkgZGkgZGF0aSBlIGkgdGhyZWFkIGxldHRvcmkgY29tZSBjb25zdW1hdG9yaS4gSSBidWZmZXIgKGJ1ZmZlcncgZSBidWZmZXJyKSBzb25vIHV0aWxpenphdGkgcGVyIGxhIGNvbXVuaWNhemlvbmUgdHJhIHNjcml0dG9yaSBlIGxldHRvcmkuCgogICAgR2VzdGlvbmUgZGVsbGUgUmlzb3JzZSBDb25kaXZpc2U6IFV0aWxpenphIHVuYSBoYXNodGFibGUgcGVyIGdlc3RpcmUgbGUgcmlzb3JzZSBjb25kaXZpc2UgdHJhIGkgdGhyZWFkLiBMYSBoYXNodGFibGUgw6ggcHJvdGV0dGEgZGEgdW4gbXV0ZXggcGVyIGdhcmFudGlyZSBjaGUgc29sbyB1biB0aHJlYWQgcGVyIHZvbHRhIHBvc3NhIG1vZGlmaWNhcmxhLgoKICAgIExvZ2dpbmcgZSBNb25pdG9yYWdnaW86IElsIHByb2dyYW1tYSBzZW1icmEgcmVnaXN0cmFyZSBsZSBhdHRpdml0w6AgZGVpIHRocmVhZCBpbiBmaWxlIGRpIGxvZyAoYWQgZXNlbXBpbywgbGV0dG9yaS5sb2cpLCBwZXJtZXR0ZW5kbyBpbCBtb25pdG9yYWdnaW8gZGVsbGUgb3BlcmF6aW9uaSBkZWkgbGV0dG9yaS4KCiAgICBDb250cm9sbG8gZGVpIFNlZ25hbGk6IEJsb2NjYSB0dXR0aSBpIHNlZ25hbGkgcGVyIGkgdGhyZWFkIHBlciBwcmV2ZW5pcmUgaW50ZXJydXppb25pIGltcHJldmlzdGUgZSBwZXIgZ2FyYW50aXJlIHVuIGNvbnRyb2xsbyBwacO5IGFjY3VyYXRvIGRlbCBmbHVzc28gZGkgZXNlY3V6aW9uZSBkZWwgcHJvZ3JhbW1hLgsAAAAAAAAACwAAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAdgUAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					38,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					39,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n"
-					},
-					"AQAAAAAAAAAAAAAACwAAAAAAAAAMAAAAIyBBcmNoaXZpbwoK",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					40,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAAsAAAAAAAAADAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACwAAAAAAAAALAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					42,
-					1,
-					"",
-					null,
-					"AQAAAAwAAAAAAAAAVgcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					46,
-					4,
-					"left_delete",
-					null,
-					"BAAAAEQBAAAAAAAARAEAAAAAAAABAAAAIEMBAAAAAAAAQwEAAAAAAAABAAAAIEIBAAAAAAAAQgEAAAAAAAABAAAAIEEBAAAAAAAAQQEAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAARQEAAAAAAABFAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					47,
-					1,
-					"insert",
-					{
-						"characters": "1."
-					},
-					"AgAAAEEBAAAAAAAAQgEAAAAAAAAAAAAAQgEAAAAAAABDAQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAQQEAAAAAAABBAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					48,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAEMBAAAAAAAARAEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAQwEAAAAAAABDAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					51,
-					4,
-					"left_delete",
-					null,
-					"BAAAAE0CAAAAAAAATQIAAAAAAAABAAAAIEwCAAAAAAAATAIAAAAAAAABAAAAIEsCAAAAAAAASwIAAAAAAAABAAAAIEoCAAAAAAAASgIAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAATgIAAAAAAABOAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					52,
-					1,
-					"insert",
-					{
-						"characters": "2."
-					},
-					"AgAAAEoCAAAAAAAASwIAAAAAAAAAAAAASwIAAAAAAABMAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASgIAAAAAAABKAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					53,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAEwCAAAAAAAATQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAATAIAAAAAAABMAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					57,
-					4,
-					"left_delete",
-					null,
-					"BAAAADADAAAAAAAAMAMAAAAAAAABAAAAIC8DAAAAAAAALwMAAAAAAAABAAAAIC4DAAAAAAAALgMAAAAAAAABAAAAIC0DAAAAAAAALQMAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAMQMAAAAAAAAxAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					58,
-					1,
-					"insert",
-					{
-						"characters": "3."
-					},
-					"AgAAAC0DAAAAAAAALgMAAAAAAAAAAAAALgMAAAAAAAAvAwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALQMAAAAAAAAtAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					59,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAC8DAAAAAAAAMAMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALwMAAAAAAAAvAwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					62,
-					4,
-					"left_delete",
-					null,
-					"BAAAANAEAAAAAAAA0AQAAAAAAAABAAAAIM8EAAAAAAAAzwQAAAAAAAABAAAAIM4EAAAAAAAAzgQAAAAAAAABAAAAIM0EAAAAAAAAzQQAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA0QQAAAAAAADRBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					63,
-					1,
-					"insert",
-					{
-						"characters": "4."
-					},
-					"AgAAAM0EAAAAAAAAzgQAAAAAAAAAAAAAzgQAAAAAAADPBAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzQQAAAAAAADNBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					64,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAM8EAAAAAAAA0AQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAzwQAAAAAAADPBAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					67,
-					4,
-					"left_delete",
-					null,
-					"BAAAABYGAAAAAAAAFgYAAAAAAAABAAAAIBUGAAAAAAAAFQYAAAAAAAABAAAAIBQGAAAAAAAAFAYAAAAAAAABAAAAIBMGAAAAAAAAEwYAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAFwYAAAAAAAAXBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					68,
-					1,
-					"insert",
-					{
-						"characters": "5."
-					},
-					"AgAAABMGAAAAAAAAFAYAAAAAAAAAAAAAFAYAAAAAAAAVBgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEwYAAAAAAAATBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					69,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAABUGAAAAAAAAFgYAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFQYAAAAAAAAVBgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					72,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLo scopo principale del programma implementato in archivio.c è di dimostrare e gestire efficacemente la concorrenza in un ambiente di programmazione multithread. Questo è realizzato attraverso un sistema che coordina l'attività di diversi thread lettori e scrittori, ciascuno dei quali ha compiti specifici:\n\n1. Thread Scrittori: Questi thread hanno il compito di produrre o generare dati. Nel contesto del programma, possono scrivere o modificare informazioni in una struttura dati condivisa, che in questo caso potrebbe essere rappresentata da una hashtable o un buffer.\n\n2. Thread Lettori: Questi thread sono responsabili della lettura o del consumo dei dati prodotti dai thread scrittori. Il loro compito è di accedere alle informazioni presenti nella struttura dati condivisa senza modificarle.\n\n3. Sincronizzazione e Integrità dei Dati: Uno degli aspetti cruciali del programma è garantire che l'accesso e la modifica dei dati condivisi avvengano in modo sicuro e sincronizzato. Ciò è fondamentale per prevenire problemi di concorrenza come le condizioni di gara, dove più thread tentano di modificare o leggere dati condivisi contemporaneamente, potenzialmente portando a inconsistenze o corruzioni dei dati.\n\n4. Modello Produttore-Consumatore: Il programma implementa una variante del classico problema produttore-consumatore, un paradigma comune nella programmazione concorrente e nei sistemi operativi. Gestisce i flussi di produzione (scrittura) e consumo (lettura) di dati in modo che non ci siano conflitti o carenze di risorse.\n\n5. Gestione e Monitoraggio: Attraverso il logging e la gestione dei segnali, il programma fornisce anche un meccanismo per monitorare e controllare l'operato dei thread, assicurando che il sistema funzioni come previsto e permettendo agli sviluppatori o agli utenti di tracciare il comportamento del sistema nel tempo.\n"
-					},
-					"AQAAAAAAAAAAAAAAUgcAAAAAAABaBwAAIyBBcmNoaXZpbwoKTG8gc2NvcG8gcHJpbmNpcGFsZSBkZWwgcHJvZ3JhbW1hIGltcGxlbWVudGF0byBpbiBhcmNoaXZpby5jIMOoIGRpIGRpbW9zdHJhcmUgZSBnZXN0aXJlIGVmZmljYWNlbWVudGUgbGEgY29uY29ycmVuemEgaW4gdW4gYW1iaWVudGUgZGkgcHJvZ3JhbW1hemlvbmUgbXVsdGl0aHJlYWQuIFF1ZXN0byDDqCByZWFsaXp6YXRvIGF0dHJhdmVyc28gdW4gc2lzdGVtYSBjaGUgY29vcmRpbmEgbCdhdHRpdml0w6AgZGkgZGl2ZXJzaSB0aHJlYWQgbGV0dG9yaSBlIHNjcml0dG9yaSwgY2lhc2N1bm8gZGVpIHF1YWxpIGhhIGNvbXBpdGkgc3BlY2lmaWNpOgoKMS4gVGhyZWFkIFNjcml0dG9yaTogUXVlc3RpIHRocmVhZCBoYW5ubyBpbCBjb21waXRvIGRpIHByb2R1cnJlIG8gZ2VuZXJhcmUgZGF0aS4gTmVsIGNvbnRlc3RvIGRlbCBwcm9ncmFtbWEsIHBvc3Nvbm8gc2NyaXZlcmUgbyBtb2RpZmljYXJlIGluZm9ybWF6aW9uaSBpbiB1bmEgc3RydXR0dXJhIGRhdGkgY29uZGl2aXNhLCBjaGUgaW4gcXVlc3RvIGNhc28gcG90cmViYmUgZXNzZXJlIHJhcHByZXNlbnRhdGEgZGEgdW5hIGhhc2h0YWJsZSBvIHVuIGJ1ZmZlci4KCjIuIFRocmVhZCBMZXR0b3JpOiBRdWVzdGkgdGhyZWFkIHNvbm8gcmVzcG9uc2FiaWxpIGRlbGxhIGxldHR1cmEgbyBkZWwgY29uc3VtbyBkZWkgZGF0aSBwcm9kb3R0aSBkYWkgdGhyZWFkIHNjcml0dG9yaS4gSWwgbG9ybyBjb21waXRvIMOoIGRpIGFjY2VkZXJlIGFsbGUgaW5mb3JtYXppb25pIHByZXNlbnRpIG5lbGxhIHN0cnV0dHVyYSBkYXRpIGNvbmRpdmlzYSBzZW56YSBtb2RpZmljYXJsZS4KCjMuIFNpbmNyb25penphemlvbmUgZSBJbnRlZ3JpdMOgIGRlaSBEYXRpOiBVbm8gZGVnbGkgYXNwZXR0aSBjcnVjaWFsaSBkZWwgcHJvZ3JhbW1hIMOoIGdhcmFudGlyZSBjaGUgbCdhY2Nlc3NvIGUgbGEgbW9kaWZpY2EgZGVpIGRhdGkgY29uZGl2aXNpIGF2dmVuZ2FubyBpbiBtb2RvIHNpY3VybyBlIHNpbmNyb25penphdG8uIENpw7Igw6ggZm9uZGFtZW50YWxlIHBlciBwcmV2ZW5pcmUgcHJvYmxlbWkgZGkgY29uY29ycmVuemEgY29tZSBsZSBjb25kaXppb25pIGRpIGdhcmEsIGRvdmUgcGnDuSB0aHJlYWQgdGVudGFubyBkaSBtb2RpZmljYXJlIG8gbGVnZ2VyZSBkYXRpIGNvbmRpdmlzaSBjb250ZW1wb3JhbmVhbWVudGUsIHBvdGVuemlhbG1lbnRlIHBvcnRhbmRvIGEgaW5jb25zaXN0ZW56ZSBvIGNvcnJ1emlvbmkgZGVpIGRhdGkuCgo0LiBNb2RlbGxvIFByb2R1dHRvcmUtQ29uc3VtYXRvcmU6IElsIHByb2dyYW1tYSBpbXBsZW1lbnRhIHVuYSB2YXJpYW50ZSBkZWwgY2xhc3NpY28gcHJvYmxlbWEgcHJvZHV0dG9yZS1jb25zdW1hdG9yZSwgdW4gcGFyYWRpZ21hIGNvbXVuZSBuZWxsYSBwcm9ncmFtbWF6aW9uZSBjb25jb3JyZW50ZSBlIG5laSBzaXN0ZW1pIG9wZXJhdGl2aS4gR2VzdGlzY2UgaSBmbHVzc2kgZGkgcHJvZHV6aW9uZSAoc2NyaXR0dXJhKSBlIGNvbnN1bW8gKGxldHR1cmEpIGRpIGRhdGkgaW4gbW9kbyBjaGUgbm9uIGNpIHNpYW5vIGNvbmZsaXR0aSBvIGNhcmVuemUgZGkgcmlzb3JzZS4KCjUuIEdlc3Rpb25lIGUgTW9uaXRvcmFnZ2lvOiBBdHRyYXZlcnNvIGlsIGxvZ2dpbmcgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaSwgaWwgcHJvZ3JhbW1hIGZvcm5pc2NlIGFuY2hlIHVuIG1lY2NhbmlzbW8gcGVyIG1vbml0b3JhcmUgZSBjb250cm9sbGFyZSBsJ29wZXJhdG8gZGVpIHRocmVhZCwgYXNzaWN1cmFuZG8gY2hlIGlsIHNpc3RlbWEgZnVuemlvbmkgY29tZSBwcmV2aXN0byBlIHBlcm1ldHRlbmRvIGFnbGkgc3ZpbHVwcGF0b3JpIG8gYWdsaSB1dGVudGkgZGkgdHJhY2NpYXJlIGlsIGNvbXBvcnRhbWVudG8gZGVsIHNpc3RlbWEgbmVsIHRlbXBvLg",
-					"AQAAAAAAAAABAAAAUQcAAAAAAABRBwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					77,
-					1,
-					"left_delete",
-					null,
-					"AQAAAAwAAAAAAAAADAAAAAAAAABOBwAATG8gc2NvcG8gcHJpbmNpcGFsZSBkZWwgcHJvZ3JhbW1hIGltcGxlbWVudGF0byBpbiBhcmNoaXZpby5jIMOoIGRpIGRpbW9zdHJhcmUgZSBnZXN0aXJlIGVmZmljYWNlbWVudGUgbGEgY29uY29ycmVuemEgaW4gdW4gYW1iaWVudGUgZGkgcHJvZ3JhbW1hemlvbmUgbXVsdGl0aHJlYWQuIFF1ZXN0byDDqCByZWFsaXp6YXRvIGF0dHJhdmVyc28gdW4gc2lzdGVtYSBjaGUgY29vcmRpbmEgbCdhdHRpdml0w6AgZGkgZGl2ZXJzaSB0aHJlYWQgbGV0dG9yaSBlIHNjcml0dG9yaSwgY2lhc2N1bm8gZGVpIHF1YWxpIGhhIGNvbXBpdGkgc3BlY2lmaWNpOgoKMS4gVGhyZWFkIFNjcml0dG9yaTogUXVlc3RpIHRocmVhZCBoYW5ubyBpbCBjb21waXRvIGRpIHByb2R1cnJlIG8gZ2VuZXJhcmUgZGF0aS4gTmVsIGNvbnRlc3RvIGRlbCBwcm9ncmFtbWEsIHBvc3Nvbm8gc2NyaXZlcmUgbyBtb2RpZmljYXJlIGluZm9ybWF6aW9uaSBpbiB1bmEgc3RydXR0dXJhIGRhdGkgY29uZGl2aXNhLCBjaGUgaW4gcXVlc3RvIGNhc28gcG90cmViYmUgZXNzZXJlIHJhcHByZXNlbnRhdGEgZGEgdW5hIGhhc2h0YWJsZSBvIHVuIGJ1ZmZlci4KCjIuIFRocmVhZCBMZXR0b3JpOiBRdWVzdGkgdGhyZWFkIHNvbm8gcmVzcG9uc2FiaWxpIGRlbGxhIGxldHR1cmEgbyBkZWwgY29uc3VtbyBkZWkgZGF0aSBwcm9kb3R0aSBkYWkgdGhyZWFkIHNjcml0dG9yaS4gSWwgbG9ybyBjb21waXRvIMOoIGRpIGFjY2VkZXJlIGFsbGUgaW5mb3JtYXppb25pIHByZXNlbnRpIG5lbGxhIHN0cnV0dHVyYSBkYXRpIGNvbmRpdmlzYSBzZW56YSBtb2RpZmljYXJsZS4KCjMuIFNpbmNyb25penphemlvbmUgZSBJbnRlZ3JpdMOgIGRlaSBEYXRpOiBVbm8gZGVnbGkgYXNwZXR0aSBjcnVjaWFsaSBkZWwgcHJvZ3JhbW1hIMOoIGdhcmFudGlyZSBjaGUgbCdhY2Nlc3NvIGUgbGEgbW9kaWZpY2EgZGVpIGRhdGkgY29uZGl2aXNpIGF2dmVuZ2FubyBpbiBtb2RvIHNpY3VybyBlIHNpbmNyb25penphdG8uIENpw7Igw6ggZm9uZGFtZW50YWxlIHBlciBwcmV2ZW5pcmUgcHJvYmxlbWkgZGkgY29uY29ycmVuemEgY29tZSBsZSBjb25kaXppb25pIGRpIGdhcmEsIGRvdmUgcGnDuSB0aHJlYWQgdGVudGFubyBkaSBtb2RpZmljYXJlIG8gbGVnZ2VyZSBkYXRpIGNvbmRpdmlzaSBjb250ZW1wb3JhbmVhbWVudGUsIHBvdGVuemlhbG1lbnRlIHBvcnRhbmRvIGEgaW5jb25zaXN0ZW56ZSBvIGNvcnJ1emlvbmkgZGVpIGRhdGkuCgo0LiBNb2RlbGxvIFByb2R1dHRvcmUtQ29uc3VtYXRvcmU6IElsIHByb2dyYW1tYSBpbXBsZW1lbnRhIHVuYSB2YXJpYW50ZSBkZWwgY2xhc3NpY28gcHJvYmxlbWEgcHJvZHV0dG9yZS1jb25zdW1hdG9yZSwgdW4gcGFyYWRpZ21hIGNvbXVuZSBuZWxsYSBwcm9ncmFtbWF6aW9uZSBjb25jb3JyZW50ZSBlIG5laSBzaXN0ZW1pIG9wZXJhdGl2aS4gR2VzdGlzY2UgaSBmbHVzc2kgZGkgcHJvZHV6aW9uZSAoc2NyaXR0dXJhKSBlIGNvbnN1bW8gKGxldHR1cmEpIGRpIGRhdGkgaW4gbW9kbyBjaGUgbm9uIGNpIHNpYW5vIGNvbmZsaXR0aSBvIGNhcmVuemUgZGkgcmlzb3JzZS4KCjUuIEdlc3Rpb25lIGUgTW9uaXRvcmFnZ2lvOiBBdHRyYXZlcnNvIGlsIGxvZ2dpbmcgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaSwgaWwgcHJvZ3JhbW1hIGZvcm5pc2NlIGFuY2hlIHVuIG1lY2NhbmlzbW8gcGVyIG1vbml0b3JhcmUgZSBjb250cm9sbGFyZSBsJ29wZXJhdG8gZGVpIHRocmVhZCwgYXNzaWN1cmFuZG8gY2hlIGlsIHNpc3RlbWEgZnVuemlvbmkgY29tZSBwcmV2aXN0byBlIHBlcm1ldHRlbmRvIGFnbGkgc3ZpbHVwcGF0b3JpIG8gYWdsaSB1dGVudGkgZGkgdHJhY2NpYXJlIGlsIGNvbXBvcnRhbWVudG8gZGVsIHNpc3RlbWEgbmVsIHRlbXBvLg",
-					"AQAAAAAAAAABAAAAUQcAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					81,
-					1,
-					"",
-					null,
-					"AQAAAA0AAAAAAAAAHAcAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					84,
-					3,
-					"left_delete",
-					null,
-					"AwAAAA8AAAAAAAAADwAAAAAAAAABAAAAIA4AAAAAAAAADgAAAAAAAAABAAAALg0AAAAAAAAADQAAAAAAAAABAAAAMQ",
-					"AQAAAAAAAAABAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					85,
-					1,
-					"insert",
-					{
-						"characters": "1"
-					},
-					"AQAAAA0AAAAAAAAADgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					86,
-					1,
-					"left_delete",
-					null,
-					"AQAAAA0AAAAAAAAADQAAAAAAAAABAAAAMQ",
-					"AQAAAAAAAAABAAAADgAAAAAAAAAOAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					87,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAAA0AAAAAAAAADgAAAAAAAAAAAAAADgAAAAAAAAAPAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADQAAAAAAAAANAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					88,
-					1,
-					"insert",
-					{
-						"characters": " 1"
-					},
-					"AgAAAA8AAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAARAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADwAAAAAAAAAPAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					89,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAABEAAAAAAAAAEgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					95,
-					1,
-					"insert",
-					{
-						"characters": "."
-					},
-					"AQAAABEAAAAAAAAAEgAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAEQAAAAAAAAARAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					98,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAGACAAAAAAAAYQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYAIAAAAAAABgAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					100,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAAGICAAAAAAAAYwIAAAAAAAAAAAAAYwIAAAAAAABkAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAYgIAAAAAAABiAgAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					101,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAGQCAAAAAAAAZQIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAZAIAAAAAAABkAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					104,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAPoDAAAAAAAA+wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA+gMAAAAAAAD6AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					106,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAAPwDAAAAAAAA/QMAAAAAAAAAAAAA/QMAAAAAAAD+AwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/AMAAAAAAAD8AwAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					107,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAP4DAAAAAAAA/wMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA/gMAAAAAAAD+AwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					110,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAHoFAAAAAAAAewUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAegUAAAAAAAB6BQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					112,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAAHwFAAAAAAAAfQUAAAAAAAAAAAAAfQUAAAAAAAB+BQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfAUAAAAAAAB8BQAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					113,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAH4FAAAAAAAAfwUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfgUAAAAAAAB+BQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					117,
-					1,
-					"",
-					null,
-					"AQAAAAwAAAAAAAAAHgEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAADAAAAAAAAAAMAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					118,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAB4BAAAAAAAAHwEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAHgEAAAAAAAAeAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					119,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n"
-					},
-					"AQAAAAAAAAAAAAAAPwgAAAAAAABFCAAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4",
-					"AQAAAAAAAAABAAAAHwEAAAAAAAAfAQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					122,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAD8IAAAAAAAAQAgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAPwgAAAAAAAA/CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					123,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n"
-					},
-					"AQAAAAAAAAAAAAAAPwgAAAAAAABHCAAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCg",
-					"AQAAAAAAAAABAAAAQAgAAAAAAABACAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					124,
-					1,
-					"insert",
-					{
-						"characters": "\n\n##"
-					},
-					"BAAAAD8IAAAAAAAAQAgAAAAAAAAAAAAAQAgAAAAAAABBCAAAAAAAAAAAAABBCAAAAAAAAEIIAAAAAAAAAAAAAEIIAAAAAAAAQwgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAPwgAAAAAAAA/CAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					125,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEIIAAAAAAAAQggAAAAAAAABAAAAIw",
-					"AQAAAAAAAAABAAAAQwgAAAAAAABDCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					126,
-					1,
-					"insert",
-					{
-						"characters": " Server"
-					},
-					"BwAAAEIIAAAAAAAAQwgAAAAAAAAAAAAAQwgAAAAAAABECAAAAAAAAAAAAABECAAAAAAAAEUIAAAAAAAAAAAAAEUIAAAAAAAARggAAAAAAAAAAAAARggAAAAAAABHCAAAAAAAAAAAAABHCAAAAAAAAEgIAAAAAAAAAAAAAEgIAAAAAAAASQgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAQggAAAAAAABCCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					127,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAEkIAAAAAAAASggAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					128,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEkIAAAAAAAASQgAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAASggAAAAAAABKCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					129,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAAEkIAAAAAAAASggAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					130,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEkIAAAAAAAASQgAAAAAAAABAAAALQ",
-					"AQAAAAAAAAABAAAASggAAAAAAABKCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					131,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAAEkIAAAAAAAASggAAAAAAAAAAAAASggAAAAAAABLCAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					132,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n\n# Server\n"
-					},
-					"AQAAAAAAAAAAAAAASQgAAAAAAABSCAAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCgojIFNlcnZlcgoK",
-					"AQAAAAAAAAABAAAASwgAAAAAAABLCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					133,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAEkIAAAAAAAASggAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASQgAAAAAAABJCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					135,
-					1,
-					"",
-					null,
-					"AQAAAEoIAAAAAAAAIA0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASggAAAAAAABKCAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					136,
-					1,
-					"insert",
-					{
-						"characters": "\n\n##"
-					},
-					"BAAAACANAAAAAAAAIQ0AAAAAAAAAAAAAIQ0AAAAAAAAiDQAAAAAAAAAAAAAiDQAAAAAAACMNAAAAAAAAAAAAACMNAAAAAAAAJA0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIA0AAAAAAAAgDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					137,
-					1,
-					"left_delete",
-					null,
-					"AQAAACMNAAAAAAAAIw0AAAAAAAABAAAAIw",
-					"AQAAAAAAAAABAAAAJA0AAAAAAAAkDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					138,
-					1,
-					"insert",
-					{
-						"characters": " CLient"
-					},
-					"BwAAACMNAAAAAAAAJA0AAAAAAAAAAAAAJA0AAAAAAAAlDQAAAAAAAAAAAAAlDQAAAAAAACYNAAAAAAAAAAAAACYNAAAAAAAAJw0AAAAAAAAAAAAAJw0AAAAAAAAoDQAAAAAAAAAAAAAoDQAAAAAAACkNAAAAAAAAAAAAACkNAAAAAAAAKg0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAIw0AAAAAAAAjDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					139,
-					5,
-					"left_delete",
-					null,
-					"BQAAACkNAAAAAAAAKQ0AAAAAAAABAAAAdCgNAAAAAAAAKA0AAAAAAAABAAAAbicNAAAAAAAAJw0AAAAAAAABAAAAZSYNAAAAAAAAJg0AAAAAAAABAAAAaSUNAAAAAAAAJQ0AAAAAAAABAAAATA",
-					"AQAAAAAAAAABAAAAKg0AAAAAAAAqDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					140,
-					1,
-					"insert",
-					{
-						"characters": "lient"
-					},
-					"BQAAACUNAAAAAAAAJg0AAAAAAAAAAAAAJg0AAAAAAAAnDQAAAAAAAAAAAAAnDQAAAAAAACgNAAAAAAAAAAAAACgNAAAAAAAAKQ0AAAAAAAAAAAAAKQ0AAAAAAAAqDQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAJQ0AAAAAAAAlDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					141,
-					1,
-					"insert",
-					{
-						"characters": " 1"
-					},
-					"AgAAACoNAAAAAAAAKw0AAAAAAAAAAAAAKw0AAAAAAAAsDQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKg0AAAAAAAAqDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					142,
-					1,
-					"insert",
-					{
-						"characters": " e"
-					},
-					"AgAAACwNAAAAAAAALQ0AAAAAAAAAAAAALQ0AAAAAAAAuDQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALA0AAAAAAAAsDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					143,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAC4NAAAAAAAALw0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALg0AAAAAAAAuDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					144,
-					5,
-					"left_delete",
-					null,
-					"BQAAAC4NAAAAAAAALg0AAAAAAAABAAAAIC0NAAAAAAAALQ0AAAAAAAABAAAAZSwNAAAAAAAALA0AAAAAAAABAAAAICsNAAAAAAAAKw0AAAAAAAABAAAAMSoNAAAAAAAAKg0AAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAALw0AAAAAAAAvDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					145,
-					1,
-					"insert",
-					{
-						"characters": "1"
-					},
-					"AQAAACoNAAAAAAAAKw0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKg0AAAAAAAAqDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					146,
-					1,
-					"insert",
-					{
-						"characters": " e"
-					},
-					"AgAAACsNAAAAAAAALA0AAAAAAAAAAAAALA0AAAAAAAAtDQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAKw0AAAAAAAArDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					147,
-					1,
-					"insert",
-					{
-						"characters": " Client"
-					},
-					"BwAAAC0NAAAAAAAALg0AAAAAAAAAAAAALg0AAAAAAAAvDQAAAAAAAAAAAAAvDQAAAAAAADANAAAAAAAAAAAAADANAAAAAAAAMQ0AAAAAAAAAAAAAMQ0AAAAAAAAyDQAAAAAAAAAAAAAyDQAAAAAAADMNAAAAAAAAAAAAADMNAAAAAAAANA0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAALQ0AAAAAAAAtDQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					148,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAADQNAAAAAAAANQ0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANA0AAAAAAAA0DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					149,
-					1,
-					"left_delete",
-					null,
-					"AQAAADQNAAAAAAAANA0AAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAANQ0AAAAAAAA1DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					150,
-					1,
-					"insert",
-					{
-						"characters": "2"
-					},
-					"AQAAADQNAAAAAAAANQ0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANA0AAAAAAAA0DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					151,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"AgAAADUNAAAAAAAANg0AAAAAAAAAAAAANg0AAAAAAAA3DQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANQ0AAAAAAAA1DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					152,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n\n# Server\n\nNel sviluppare server.py, ho mirato a creare un server versatile e affidabile. Utilizzando il modulo argparse, ho permesso agli utenti di personalizzare facilmente i parametri di esecuzione, come il numero di thread e l'opzione di eseguire il programma archivio con Valgrind, migliorando così la flessibilità e la facilità di debug.\n\nHo implementato la creazione di pipe con nome per una comunicazione efficiente con il processo archivio. Successivamente, ho configurato un socket server che utilizza ThreadPoolExecutor per gestire le connessioni in entrata in modo asincrono, assegnando un thread dedicato a ogni connessione.\n\nLe funzioni recv_allc1 e recv_allc2 gestiscono la ricezione dei dati dai client, scrivendo le informazioni ricevute nelle pipe in mutua esclusione. Questo assicura una sincronizzazione efficace e riduce il rischio di conflitti.\n\nIn caso di eccezioni o interruzioni, ho implementato un meccanismo di pulizia che chiude le pipe, rimuove le connessioni e invia un segnale SIGTERM a archivio, garantendo una chiusura ordinata e sicura del server. Ho inoltre utilizzato lock separati per la scrittura sulle pipe e sui file di log per ottimizzare la gestione della concorrenza e migliorare le prestazioni del server.\n\n# Client1 e Client2\n"
-					},
-					"AQAAAAAAAAAAAAAANg0AAAAAAABBDQAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCiMgU2VydmVyCgpOZWwgc3ZpbHVwcGFyZSBzZXJ2ZXIucHksIGhvIG1pcmF0byBhIGNyZWFyZSB1biBzZXJ2ZXIgdmVyc2F0aWxlIGUgYWZmaWRhYmlsZS4gVXRpbGl6emFuZG8gaWwgbW9kdWxvIGFyZ3BhcnNlLCBobyBwZXJtZXNzbyBhZ2xpIHV0ZW50aSBkaSBwZXJzb25hbGl6emFyZSBmYWNpbG1lbnRlIGkgcGFyYW1ldHJpIGRpIGVzZWN1emlvbmUsIGNvbWUgaWwgbnVtZXJvIGRpIHRocmVhZCBlIGwnb3B6aW9uZSBkaSBlc2VndWlyZSBpbCBwcm9ncmFtbWEgYXJjaGl2aW8gY29uIFZhbGdyaW5kLCBtaWdsaW9yYW5kbyBjb3PDrCBsYSBmbGVzc2liaWxpdMOgIGUgbGEgZmFjaWxpdMOgIGRpIGRlYnVnLgoKSG8gaW1wbGVtZW50YXRvIGxhIGNyZWF6aW9uZSBkaSBwaXBlIGNvbiBub21lIHBlciB1bmEgY29tdW5pY2F6aW9uZSBlZmZpY2llbnRlIGNvbiBpbCBwcm9jZXNzbyBhcmNoaXZpby4gU3VjY2Vzc2l2YW1lbnRlLCBobyBjb25maWd1cmF0byB1biBzb2NrZXQgc2VydmVyIGNoZSB1dGlsaXp6YSBUaHJlYWRQb29sRXhlY3V0b3IgcGVyIGdlc3RpcmUgbGUgY29ubmVzc2lvbmkgaW4gZW50cmF0YSBpbiBtb2RvIGFzaW5jcm9ubywgYXNzZWduYW5kbyB1biB0aHJlYWQgZGVkaWNhdG8gYSBvZ25pIGNvbm5lc3Npb25lLgoKTGUgZnVuemlvbmkgcmVjdl9hbGxjMSBlIHJlY3ZfYWxsYzIgZ2VzdGlzY29ubyBsYSByaWNlemlvbmUgZGVpIGRhdGkgZGFpIGNsaWVudCwgc2NyaXZlbmRvIGxlIGluZm9ybWF6aW9uaSByaWNldnV0ZSBuZWxsZSBwaXBlIGluIG11dHVhIGVzY2x1c2lvbmUuIFF1ZXN0byBhc3NpY3VyYSB1bmEgc2luY3Jvbml6emF6aW9uZSBlZmZpY2FjZSBlIHJpZHVjZSBpbCByaXNjaGlvIGRpIGNvbmZsaXR0aS4KCkluIGNhc28gZGkgZWNjZXppb25pIG8gaW50ZXJydXppb25pLCBobyBpbXBsZW1lbnRhdG8gdW4gbWVjY2FuaXNtbyBkaSBwdWxpemlhIGNoZSBjaGl1ZGUgbGUgcGlwZSwgcmltdW92ZSBsZSBjb25uZXNzaW9uaSBlIGludmlhIHVuIHNlZ25hbGUgU0lHVEVSTSBhIGFyY2hpdmlvLCBnYXJhbnRlbmRvIHVuYSBjaGl1c3VyYSBvcmRpbmF0YSBlIHNpY3VyYSBkZWwgc2VydmVyLiBIbyBpbm9sdHJlIHV0aWxpenphdG8gbG9jayBzZXBhcmF0aSBwZXIgbGEgc2NyaXR0dXJhIHN1bGxlIHBpcGUgZSBzdWkgZmlsZSBkaSBsb2cgcGVyIG90dGltaXp6YXJlIGxhIGdlc3Rpb25lIGRlbGxhIGNvbmNvcnJlbnphIGUgbWlnbGlvcmFyZSBsZSBwcmVzdGF6aW9uaSBkZWwgc2VydmVyLgoKIyBDbGllbnQxIGUgQ2xpZW50MgoK",
-					"AQAAAAAAAAABAAAANw0AAAAAAAA3DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					153,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAADYNAAAAAAAANw0AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANg0AAAAAAAA2DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					155,
-					1,
-					"",
-					null,
-					"AQAAADcNAAAAAAAAeBUAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAANw0AAAAAAAA3DQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					158,
-					3,
-					"left_delete",
-					null,
-					"AwAAAN4QAAAAAAAA3hAAAAAAAAABAAAAIN0QAAAAAAAA3RAAAAAAAAABAAAAINwQAAAAAAAA3BAAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA3xAAAAAAAADfEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					161,
-					4,
-					"left_delete",
-					null,
-					"BAAAAKsRAAAAAAAAqxEAAAAAAAABAAAAQ6oRAAAAAAAAqhEAAAAAAAABAAAAIKkRAAAAAAAAqREAAAAAAAABAAAAIKgRAAAAAAAAqBEAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAqxEAAAAAAACsEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					162,
-					1,
-					"insert",
-					{
-						"characters": "C"
-					},
-					"AQAAAKgRAAAAAAAAqREAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqBEAAAAAAACoEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					166,
-					3,
-					"left_delete",
-					null,
-					"AwAAAHoSAAAAAAAAehIAAAAAAAABAAAAIHkSAAAAAAAAeRIAAAAAAAABAAAAIHgSAAAAAAAAeBIAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAexIAAAAAAAB7EgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					169,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAANwQAAAAAAAA3RAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3BAAAAAAAADcEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					170,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAN0QAAAAAAAA3hAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA3RAAAAAAAADdEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					173,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAAKoRAAAAAAAAqxEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqhEAAAAAAACqEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					174,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAKsRAAAAAAAArBEAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqxEAAAAAAACrEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					182,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAAHwSAAAAAAAAfRIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfBIAAAAAAAB8EgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					183,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAH0SAAAAAAAAfhIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfRIAAAAAAAB9EgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					187,
-					2,
-					"left_delete",
-					null,
-					"AgAAAHkTAAAAAAAAeRMAAAAAAAD/AQAARW50cmFtYmkgaSBjbGllbnQgc29ubyBwcm9nZXR0YXRpIHBlciBlc3NlcmUgc2VtcGxpY2kgZSBkaXJldHRpIG5lbCBsb3JvIGFwcHJvY2NpbywgY29uY2VudHJhbmRvIGwnYXR0ZW56aW9uZSBzdWxsYSBjb3JyZXR0YSBjb211bmljYXppb25lIGRlaSBkYXRpIGFsIHNlcnZlci4gTWVudHJlIGNsaWVudDEgYWRvdHRhIHVuIGFwcHJvY2NpbyBwacO5IHNlcXVlbnppYWxlLCBjbGllbnQyIHNmcnV0dGEgaWwgbXVsdGl0aHJlYWRpbmcgcGVyIG1pZ2xpb3JhcmUgbCdlZmZpY2llbnphLCBzcGVjaWFsbWVudGUgdXRpbGUgcXVhbmRvIHNpIGhhbm5vIHBpw7kgZmlsZSBkaSBpbnB1dCBkYSBwcm9jZXNzYXJlLiBRdWVzdGEgc2NlbHRhIHJpZmxldHRlIHVuIGVxdWlsaWJyaW8gdHJhIHNlbXBsaWNpdMOgIGRpIGltcGxlbWVudGF6aW9uZSBlIHByZXN0YXppb25pLCBjb24gY2xpZW50MSBjaGUgbWlyYSBhbGxhIGNoaWFyZXp6YSBlIGNsaWVudDIgY2hlIGNlcmNhIHVuYSBtYWdnaW9yZSBlZmZpY2llbnphLngTAAAAAAAAeBMAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAdRUAAAAAAAB5EwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					190,
-					1,
-					"insert",
-					{
-						"characters": "  "
-					},
-					"AgAAAKgRAAAAAAAAqREAAAAAAAAAAAAAqREAAAAAAACqEQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqBEAAAAAAACoEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					191,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAKoRAAAAAAAAqxEAAAAAAAAAAAAAqxEAAAAAAACsEQAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAqhEAAAAAAACqEQAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					196,
-					1,
-					"insert",
-					{
-						"characters": "  ù"
-					},
-					"BAAAAH4SAAAAAAAAfxIAAAAAAAAAAAAAqxEAAAAAAACrEQAAAAAAAAEAAAAgfhIAAAAAAAB/EgAAAAAAAAAAAAB/EgAAAAAAAIASAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfhIAAAAAAAB+EgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					197,
-					1,
-					"left_delete",
-					null,
-					"AQAAAH8SAAAAAAAAfxIAAAAAAAACAAAAw7k",
-					"AQAAAAAAAAABAAAAgBIAAAAAAACAEgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					198,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAH8SAAAAAAAAgBIAAAAAAAAAAAAAgBIAAAAAAACBEgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAfxIAAAAAAAB/EgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					199,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n\n# Server\n\nNel sviluppare server.py, ho mirato a creare un server versatile e affidabile. Utilizzando il modulo argparse, ho permesso agli utenti di personalizzare facilmente i parametri di esecuzione, come il numero di thread e l'opzione di eseguire il programma archivio con Valgrind, migliorando così la flessibilità e la facilità di debug.\n\nHo implementato la creazione di pipe con nome per una comunicazione efficiente con il processo archivio. Successivamente, ho configurato un socket server che utilizza ThreadPoolExecutor per gestire le connessioni in entrata in modo asincrono, assegnando un thread dedicato a ogni connessione.\n\nLe funzioni recv_allc1 e recv_allc2 gestiscono la ricezione dei dati dai client, scrivendo le informazioni ricevute nelle pipe in mutua esclusione. Questo assicura una sincronizzazione efficace e riduce il rischio di conflitti.\n\nIn caso di eccezioni o interruzioni, ho implementato un meccanismo di pulizia che chiude le pipe, rimuove le connessioni e invia un segnale SIGTERM a archivio, garantendo una chiusura ordinata e sicura del server. Ho inoltre utilizzato lock separati per la scrittura sulle pipe e sui file di log per ottimizzare la gestione della concorrenza e migliorare le prestazioni del server.\n\n# Client1 e Client2\n\nn client1.c e client2.c, ho sviluppato due client distinti per interagire con il server. Entrambi i client hanno il compito di leggere sequenze di dati da file di testo e inviarle al server, ma differiscono nella modalità di comunicazione e nel trattamento delle risposte del server.\nclient1.c\n\n    Lettura del File: Il client apre un file di testo e legge sequenze di dati. Per ogni sequenza, stabilisce una nuova connessione con il server.\n    Invio dei Dati: Ogni sequenza viene inviata insieme alla sua lunghezza. Utilizzo la funzione writen per assicurarmi che tutti i dati vengano inviati correttamente, gestendo anche eventuali interruzioni.\n    Connessione e Chiusura Socket: Per ogni sequenza, il client apre una nuova socket, invia i dati e chiude la socket. Questo modello di \"usa e getta\" semplifica la gestione delle connessioni, ma potrebbe non essere l'approccio più efficiente in termini di prestazioni.\n\nclient2.c\n\n- Gestione Multithread: Utilizzo i thread per gestire più file di input in parallelo. Ogni thread legge da un file diverso e invia i dati al server, permettendo un'elaborazione più efficiente e parallela.\n\n- Comunicazione Continua: A differenza di client1, client2 mantiene aperta la connessione per l'intera durata dell'invio di tutte le sequenze da un singolo file, inviando un segnale di terminazione alla fine.\n\n- Ricezione e Verifica Risposte: Dopo aver inviato tutte le sequenze, client2 attende una risposta dal server che indica il numero di sequenze ricevute, confrontandolo con il numero di sequenze inviate per verificare la correttezza della trasmissione.\n"
-					},
-					"AQAAAAAAAAAAAAAAdxMAAAAAAACNEwAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCiMgU2VydmVyCgpOZWwgc3ZpbHVwcGFyZSBzZXJ2ZXIucHksIGhvIG1pcmF0byBhIGNyZWFyZSB1biBzZXJ2ZXIgdmVyc2F0aWxlIGUgYWZmaWRhYmlsZS4gVXRpbGl6emFuZG8gaWwgbW9kdWxvIGFyZ3BhcnNlLCBobyBwZXJtZXNzbyBhZ2xpIHV0ZW50aSBkaSBwZXJzb25hbGl6emFyZSBmYWNpbG1lbnRlIGkgcGFyYW1ldHJpIGRpIGVzZWN1emlvbmUsIGNvbWUgaWwgbnVtZXJvIGRpIHRocmVhZCBlIGwnb3B6aW9uZSBkaSBlc2VndWlyZSBpbCBwcm9ncmFtbWEgYXJjaGl2aW8gY29uIFZhbGdyaW5kLCBtaWdsaW9yYW5kbyBjb3PDrCBsYSBmbGVzc2liaWxpdMOgIGUgbGEgZmFjaWxpdMOgIGRpIGRlYnVnLgoKSG8gaW1wbGVtZW50YXRvIGxhIGNyZWF6aW9uZSBkaSBwaXBlIGNvbiBub21lIHBlciB1bmEgY29tdW5pY2F6aW9uZSBlZmZpY2llbnRlIGNvbiBpbCBwcm9jZXNzbyBhcmNoaXZpby4gU3VjY2Vzc2l2YW1lbnRlLCBobyBjb25maWd1cmF0byB1biBzb2NrZXQgc2VydmVyIGNoZSB1dGlsaXp6YSBUaHJlYWRQb29sRXhlY3V0b3IgcGVyIGdlc3RpcmUgbGUgY29ubmVzc2lvbmkgaW4gZW50cmF0YSBpbiBtb2RvIGFzaW5jcm9ubywgYXNzZWduYW5kbyB1biB0aHJlYWQgZGVkaWNhdG8gYSBvZ25pIGNvbm5lc3Npb25lLgoKTGUgZnVuemlvbmkgcmVjdl9hbGxjMSBlIHJlY3ZfYWxsYzIgZ2VzdGlzY29ubyBsYSByaWNlemlvbmUgZGVpIGRhdGkgZGFpIGNsaWVudCwgc2NyaXZlbmRvIGxlIGluZm9ybWF6aW9uaSByaWNldnV0ZSBuZWxsZSBwaXBlIGluIG11dHVhIGVzY2x1c2lvbmUuIFF1ZXN0byBhc3NpY3VyYSB1bmEgc2luY3Jvbml6emF6aW9uZSBlZmZpY2FjZSBlIHJpZHVjZSBpbCByaXNjaGlvIGRpIGNvbmZsaXR0aS4KCkluIGNhc28gZGkgZWNjZXppb25pIG8gaW50ZXJydXppb25pLCBobyBpbXBsZW1lbnRhdG8gdW4gbWVjY2FuaXNtbyBkaSBwdWxpemlhIGNoZSBjaGl1ZGUgbGUgcGlwZSwgcmltdW92ZSBsZSBjb25uZXNzaW9uaSBlIGludmlhIHVuIHNlZ25hbGUgU0lHVEVSTSBhIGFyY2hpdmlvLCBnYXJhbnRlbmRvIHVuYSBjaGl1c3VyYSBvcmRpbmF0YSBlIHNpY3VyYSBkZWwgc2VydmVyLiBIbyBpbm9sdHJlIHV0aWxpenphdG8gbG9jayBzZXBhcmF0aSBwZXIgbGEgc2NyaXR0dXJhIHN1bGxlIHBpcGUgZSBzdWkgZmlsZSBkaSBsb2cgcGVyIG90dGltaXp6YXJlIGxhIGdlc3Rpb25lIGRlbGxhIGNvbmNvcnJlbnphIGUgbWlnbGlvcmFyZSBsZSBwcmVzdGF6aW9uaSBkZWwgc2VydmVyLgoKIyBDbGllbnQxIGUgQ2xpZW50MgoKbiBjbGllbnQxLmMgZSBjbGllbnQyLmMsIGhvIHN2aWx1cHBhdG8gZHVlIGNsaWVudCBkaXN0aW50aSBwZXIgaW50ZXJhZ2lyZSBjb24gaWwgc2VydmVyLiBFbnRyYW1iaSBpIGNsaWVudCBoYW5ubyBpbCBjb21waXRvIGRpIGxlZ2dlcmUgc2VxdWVuemUgZGkgZGF0aSBkYSBmaWxlIGRpIHRlc3RvIGUgaW52aWFybGUgYWwgc2VydmVyLCBtYSBkaWZmZXJpc2Nvbm8gbmVsbGEgbW9kYWxpdMOgIGRpIGNvbXVuaWNhemlvbmUgZSBuZWwgdHJhdHRhbWVudG8gZGVsbGUgcmlzcG9zdGUgZGVsIHNlcnZlci4KY2xpZW50MS5jCgogICAgTGV0dHVyYSBkZWwgRmlsZTogSWwgY2xpZW50IGFwcmUgdW4gZmlsZSBkaSB0ZXN0byBlIGxlZ2dlIHNlcXVlbnplIGRpIGRhdGkuIFBlciBvZ25pIHNlcXVlbnphLCBzdGFiaWxpc2NlIHVuYSBudW92YSBjb25uZXNzaW9uZSBjb24gaWwgc2VydmVyLgogICAgSW52aW8gZGVpIERhdGk6IE9nbmkgc2VxdWVuemEgdmllbmUgaW52aWF0YSBpbnNpZW1lIGFsbGEgc3VhIGx1bmdoZXp6YS4gVXRpbGl6em8gbGEgZnVuemlvbmUgd3JpdGVuIHBlciBhc3NpY3VyYXJtaSBjaGUgdHV0dGkgaSBkYXRpIHZlbmdhbm8gaW52aWF0aSBjb3JyZXR0YW1lbnRlLCBnZXN0ZW5kbyBhbmNoZSBldmVudHVhbGkgaW50ZXJydXppb25pLgogICAgQ29ubmVzc2lvbmUgZSBDaGl1c3VyYSBTb2NrZXQ6IFBlciBvZ25pIHNlcXVlbnphLCBpbCBjbGllbnQgYXByZSB1bmEgbnVvdmEgc29ja2V0LCBpbnZpYSBpIGRhdGkgZSBjaGl1ZGUgbGEgc29ja2V0LiBRdWVzdG8gbW9kZWxsbyBkaSAidXNhIGUgZ2V0dGEiIHNlbXBsaWZpY2EgbGEgZ2VzdGlvbmUgZGVsbGUgY29ubmVzc2lvbmksIG1hIHBvdHJlYmJlIG5vbiBlc3NlcmUgbCdhcHByb2NjaW8gcGnDuSBlZmZpY2llbnRlIGluIHRlcm1pbmkgZGkgcHJlc3RhemlvbmkuCgpjbGllbnQyLmMKCiAtIEdlc3Rpb25lIE11bHRpdGhyZWFkOiBVdGlsaXp6byBpIHRocmVhZCBwZXIgZ2VzdGlyZSBwacO5IGZpbGUgZGkgaW5wdXQgaW4gcGFyYWxsZWxvLiBPZ25pIHRocmVhZCBsZWdnZSBkYSB1biBmaWxlIGRpdmVyc28gZSBpbnZpYSBpIGRhdGkgYWwgc2VydmVyLCBwZXJtZXR0ZW5kbyB1bidlbGFib3JhemlvbmUgcGnDuSBlZmZpY2llbnRlIGUgcGFyYWxsZWxhLiAgCgogLSBDb211bmljYXppb25lIENvbnRpbnVhOiBBIGRpZmZlcmVuemEgZGkgY2xpZW50MSwgY2xpZW50MiBtYW50aWVuZSBhcGVydGEgbGEgY29ubmVzc2lvbmUgcGVyIGwnaW50ZXJhIGR1cmF0YSBkZWxsJ2ludmlvIGRpIHR1dHRlIGxlIHNlcXVlbnplIGRhIHVuIHNpbmdvbG8gZmlsZSwgaW52aWFuZG8gdW4gc2VnbmFsZSBkaSB0ZXJtaW5hemlvbmUgYWxsYSBmaW5lLiAgCiAKIC0gUmljZXppb25lIGUgVmVyaWZpY2EgUmlzcG9zdGU6IERvcG8gYXZlciBpbnZpYXRvIHR1dHRlIGxlIHNlcXVlbnplLCBjbGllbnQyIGF0dGVuZGUgdW5hIHJpc3Bvc3RhIGRhbCBzZXJ2ZXIgY2hlIGluZGljYSBpbCBudW1lcm8gZGkgc2VxdWVuemUgcmljZXZ1dGUsIGNvbmZyb250YW5kb2xvIGNvbiBpbCBudW1lcm8gZGkgc2VxdWVuemUgaW52aWF0ZSBwZXIgdmVyaWZpY2FyZSBsYSBjb3JyZXR0ZXp6YSBkZWxsYSB0cmFzbWlzc2lvbmUuCg",
-					"AQAAAAAAAAABAAAAgRIAAAAAAACBEgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					202,
-					1,
-					"left_delete",
-					null,
-					"AQAAAF4OAAAAAAAAXg4AAAAAAAAFAAAAICAgIEw",
-					"AQAAAAAAAAABAAAAYw4AAAAAAABeDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					203,
-					1,
-					"insert",
-					{
-						"characters": "L"
-					},
-					"AQAAAF4OAAAAAAAAXw4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXg4AAAAAAABeDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					206,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAAF4OAAAAAAAAXw4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXg4AAAAAAABeDgAAAAAAAAAAAAAAAAAA"
-				],
-				[
-					207,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAF8OAAAAAAAAYA4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAXw4AAAAAAABfDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					212,
-					4,
-					"left_delete",
-					null,
-					"BAAAAPIOAAAAAAAA8g4AAAAAAAABAAAAIPEOAAAAAAAA8Q4AAAAAAAABAAAAIPAOAAAAAAAA8A4AAAAAAAABAAAAIO8OAAAAAAAA7w4AAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAA8w4AAAAAAADzDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					213,
-					1,
-					"insert",
-					{
-						"characters": "-"
-					},
-					"AQAAAO8OAAAAAAAA8A4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7w4AAAAAAADvDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					214,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAPAOAAAAAAAA8Q4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8A4AAAAAAADwDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					219,
-					1,
-					"insert",
-					{
-						"characters": "  "
-					},
-					"AgAAAO4OAAAAAAAA7w4AAAAAAAAAAAAA7w4AAAAAAADwDgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7g4AAAAAAADuDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					220,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAPAOAAAAAAAA8Q4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8A4AAAAAAADwDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					223,
-					1,
-					"insert",
-					{
-						"characters": "  "
-					},
-					"AgAAAL4PAAAAAAAAvw8AAAAAAAAAAAAAvw8AAAAAAADADwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAvg8AAAAAAAC+DwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					224,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAMAPAAAAAAAAwQ8AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwA8AAAAAAADADwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					227,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMIPAAAAAAAAwg8AAAAAAAAEAAAAICAgIA",
-					"AQAAAAAAAAABAAAAxg8AAAAAAADCDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					228,
-					1,
-					"insert",
-					{
-						"characters": "--"
-					},
-					"AgAAAMIPAAAAAAAAww8AAAAAAAAAAAAAww8AAAAAAADEDwAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwg8AAAAAAADCDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					229,
-					1,
-					"left_delete",
-					null,
-					"AQAAAMMPAAAAAAAAww8AAAAAAAABAAAALQ",
-					"AQAAAAAAAAABAAAAxA8AAAAAAADEDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					230,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAMMPAAAAAAAAxA8AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAww8AAAAAAADDDwAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					232,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n\n# Server\n\nNel sviluppare server.py, ho mirato a creare un server versatile e affidabile. Utilizzando il modulo argparse, ho permesso agli utenti di personalizzare facilmente i parametri di esecuzione, come il numero di thread e l'opzione di eseguire il programma archivio con Valgrind, migliorando così la flessibilità e la facilità di debug.\n\nHo implementato la creazione di pipe con nome per una comunicazione efficiente con il processo archivio. Successivamente, ho configurato un socket server che utilizza ThreadPoolExecutor per gestire le connessioni in entrata in modo asincrono, assegnando un thread dedicato a ogni connessione.\n\nLe funzioni recv_allc1 e recv_allc2 gestiscono la ricezione dei dati dai client, scrivendo le informazioni ricevute nelle pipe in mutua esclusione. Questo assicura una sincronizzazione efficace e riduce il rischio di conflitti.\n\nIn caso di eccezioni o interruzioni, ho implementato un meccanismo di pulizia che chiude le pipe, rimuove le connessioni e invia un segnale SIGTERM a archivio, garantendo una chiusura ordinata e sicura del server. Ho inoltre utilizzato lock separati per la scrittura sulle pipe e sui file di log per ottimizzare la gestione della concorrenza e migliorare le prestazioni del server.\n\n# Client1 e Client2\n\nn client1.c e client2.c, ho sviluppato due client distinti per interagire con il server. Entrambi i client hanno il compito di leggere sequenze di dati da file di testo e inviarle al server, ma differiscono nella modalità di comunicazione e nel trattamento delle risposte del server.\nclient1.c\n\n- Lettura del File: Il client apre un file di testo e legge sequenze di dati. Per ogni sequenza, stabilisce una nuova connessione con il server.\n\n- Invio dei Dati: Ogni sequenza viene inviata insieme alla sua lunghezza. Utilizzo la funzione writen per assicurarmi che tutti i dati vengano inviati correttamente, gestendo anche eventuali interruzioni.\n\n- Connessione e Chiusura Socket: Per ogni sequenza, il client apre una nuova socket, invia i dati e chiude la socket. Questo modello di \"usa e getta\" semplifica la gestione delle connessioni, ma potrebbe non essere l'approccio più efficiente in termini di prestazioni.\n\nclient2.c\n\n- Gestione Multithread: Utilizzo i thread per gestire più file di input in parallelo. Ogni thread legge da un file diverso e invia i dati al server, permettendo un'elaborazione più efficiente e parallela.\n\n- Comunicazione Continua: A differenza di client1, client2 mantiene aperta la connessione per l'intera durata dell'invio di tutte le sequenze da un singolo file, inviando un segnale di terminazione alla fine.\n\n- Ricezione e Verifica Risposte: Dopo aver inviato tutte le sequenze, client2 attende una risposta dal server che indica il numero di sequenze ricevute, confrontandolo con il numero di sequenze inviate per verificare la correttezza della trasmissione.\n"
-					},
-					"AQAAAAAAAAAAAAAAcxMAAAAAAACFEwAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCiMgU2VydmVyCgpOZWwgc3ZpbHVwcGFyZSBzZXJ2ZXIucHksIGhvIG1pcmF0byBhIGNyZWFyZSB1biBzZXJ2ZXIgdmVyc2F0aWxlIGUgYWZmaWRhYmlsZS4gVXRpbGl6emFuZG8gaWwgbW9kdWxvIGFyZ3BhcnNlLCBobyBwZXJtZXNzbyBhZ2xpIHV0ZW50aSBkaSBwZXJzb25hbGl6emFyZSBmYWNpbG1lbnRlIGkgcGFyYW1ldHJpIGRpIGVzZWN1emlvbmUsIGNvbWUgaWwgbnVtZXJvIGRpIHRocmVhZCBlIGwnb3B6aW9uZSBkaSBlc2VndWlyZSBpbCBwcm9ncmFtbWEgYXJjaGl2aW8gY29uIFZhbGdyaW5kLCBtaWdsaW9yYW5kbyBjb3PDrCBsYSBmbGVzc2liaWxpdMOgIGUgbGEgZmFjaWxpdMOgIGRpIGRlYnVnLgoKSG8gaW1wbGVtZW50YXRvIGxhIGNyZWF6aW9uZSBkaSBwaXBlIGNvbiBub21lIHBlciB1bmEgY29tdW5pY2F6aW9uZSBlZmZpY2llbnRlIGNvbiBpbCBwcm9jZXNzbyBhcmNoaXZpby4gU3VjY2Vzc2l2YW1lbnRlLCBobyBjb25maWd1cmF0byB1biBzb2NrZXQgc2VydmVyIGNoZSB1dGlsaXp6YSBUaHJlYWRQb29sRXhlY3V0b3IgcGVyIGdlc3RpcmUgbGUgY29ubmVzc2lvbmkgaW4gZW50cmF0YSBpbiBtb2RvIGFzaW5jcm9ubywgYXNzZWduYW5kbyB1biB0aHJlYWQgZGVkaWNhdG8gYSBvZ25pIGNvbm5lc3Npb25lLgoKTGUgZnVuemlvbmkgcmVjdl9hbGxjMSBlIHJlY3ZfYWxsYzIgZ2VzdGlzY29ubyBsYSByaWNlemlvbmUgZGVpIGRhdGkgZGFpIGNsaWVudCwgc2NyaXZlbmRvIGxlIGluZm9ybWF6aW9uaSByaWNldnV0ZSBuZWxsZSBwaXBlIGluIG11dHVhIGVzY2x1c2lvbmUuIFF1ZXN0byBhc3NpY3VyYSB1bmEgc2luY3Jvbml6emF6aW9uZSBlZmZpY2FjZSBlIHJpZHVjZSBpbCByaXNjaGlvIGRpIGNvbmZsaXR0aS4KCkluIGNhc28gZGkgZWNjZXppb25pIG8gaW50ZXJydXppb25pLCBobyBpbXBsZW1lbnRhdG8gdW4gbWVjY2FuaXNtbyBkaSBwdWxpemlhIGNoZSBjaGl1ZGUgbGUgcGlwZSwgcmltdW92ZSBsZSBjb25uZXNzaW9uaSBlIGludmlhIHVuIHNlZ25hbGUgU0lHVEVSTSBhIGFyY2hpdmlvLCBnYXJhbnRlbmRvIHVuYSBjaGl1c3VyYSBvcmRpbmF0YSBlIHNpY3VyYSBkZWwgc2VydmVyLiBIbyBpbm9sdHJlIHV0aWxpenphdG8gbG9jayBzZXBhcmF0aSBwZXIgbGEgc2NyaXR0dXJhIHN1bGxlIHBpcGUgZSBzdWkgZmlsZSBkaSBsb2cgcGVyIG90dGltaXp6YXJlIGxhIGdlc3Rpb25lIGRlbGxhIGNvbmNvcnJlbnphIGUgbWlnbGlvcmFyZSBsZSBwcmVzdGF6aW9uaSBkZWwgc2VydmVyLgoKIyBDbGllbnQxIGUgQ2xpZW50MgoKbiBjbGllbnQxLmMgZSBjbGllbnQyLmMsIGhvIHN2aWx1cHBhdG8gZHVlIGNsaWVudCBkaXN0aW50aSBwZXIgaW50ZXJhZ2lyZSBjb24gaWwgc2VydmVyLiBFbnRyYW1iaSBpIGNsaWVudCBoYW5ubyBpbCBjb21waXRvIGRpIGxlZ2dlcmUgc2VxdWVuemUgZGkgZGF0aSBkYSBmaWxlIGRpIHRlc3RvIGUgaW52aWFybGUgYWwgc2VydmVyLCBtYSBkaWZmZXJpc2Nvbm8gbmVsbGEgbW9kYWxpdMOgIGRpIGNvbXVuaWNhemlvbmUgZSBuZWwgdHJhdHRhbWVudG8gZGVsbGUgcmlzcG9zdGUgZGVsIHNlcnZlci4KY2xpZW50MS5jCgotIExldHR1cmEgZGVsIEZpbGU6IElsIGNsaWVudCBhcHJlIHVuIGZpbGUgZGkgdGVzdG8gZSBsZWdnZSBzZXF1ZW56ZSBkaSBkYXRpLiBQZXIgb2duaSBzZXF1ZW56YSwgc3RhYmlsaXNjZSB1bmEgbnVvdmEgY29ubmVzc2lvbmUgY29uIGlsIHNlcnZlci4gIAoKLSBJbnZpbyBkZWkgRGF0aTogT2duaSBzZXF1ZW56YSB2aWVuZSBpbnZpYXRhIGluc2llbWUgYWxsYSBzdWEgbHVuZ2hlenphLiBVdGlsaXp6byBsYSBmdW56aW9uZSB3cml0ZW4gcGVyIGFzc2ljdXJhcm1pIGNoZSB0dXR0aSBpIGRhdGkgdmVuZ2FubyBpbnZpYXRpIGNvcnJldHRhbWVudGUsIGdlc3RlbmRvIGFuY2hlIGV2ZW50dWFsaSBpbnRlcnJ1emlvbmkuICAKCi0gQ29ubmVzc2lvbmUgZSBDaGl1c3VyYSBTb2NrZXQ6IFBlciBvZ25pIHNlcXVlbnphLCBpbCBjbGllbnQgYXByZSB1bmEgbnVvdmEgc29ja2V0LCBpbnZpYSBpIGRhdGkgZSBjaGl1ZGUgbGEgc29ja2V0LiBRdWVzdG8gbW9kZWxsbyBkaSAidXNhIGUgZ2V0dGEiIHNlbXBsaWZpY2EgbGEgZ2VzdGlvbmUgZGVsbGUgY29ubmVzc2lvbmksIG1hIHBvdHJlYmJlIG5vbiBlc3NlcmUgbCdhcHByb2NjaW8gcGnDuSBlZmZpY2llbnRlIGluIHRlcm1pbmkgZGkgcHJlc3RhemlvbmkuCgpjbGllbnQyLmMKCi0gR2VzdGlvbmUgTXVsdGl0aHJlYWQ6IFV0aWxpenpvIGkgdGhyZWFkIHBlciBnZXN0aXJlIHBpw7kgZmlsZSBkaSBpbnB1dCBpbiBwYXJhbGxlbG8uIE9nbmkgdGhyZWFkIGxlZ2dlIGRhIHVuIGZpbGUgZGl2ZXJzbyBlIGludmlhIGkgZGF0aSBhbCBzZXJ2ZXIsIHBlcm1ldHRlbmRvIHVuJ2VsYWJvcmF6aW9uZSBwacO5IGVmZmljaWVudGUgZSBwYXJhbGxlbGEuCgotIENvbXVuaWNhemlvbmUgQ29udGludWE6IEEgZGlmZmVyZW56YSBkaSBjbGllbnQxLCBjbGllbnQyIG1hbnRpZW5lIGFwZXJ0YSBsYSBjb25uZXNzaW9uZSBwZXIgbCdpbnRlcmEgZHVyYXRhIGRlbGwnaW52aW8gZGkgdHV0dGUgbGUgc2VxdWVuemUgZGEgdW4gc2luZ29sbyBmaWxlLCBpbnZpYW5kbyB1biBzZWduYWxlIGRpIHRlcm1pbmF6aW9uZSBhbGxhIGZpbmUuCgotIFJpY2V6aW9uZSBlIFZlcmlmaWNhIFJpc3Bvc3RlOiBEb3BvIGF2ZXIgaW52aWF0byB0dXR0ZSBsZSBzZXF1ZW56ZSwgY2xpZW50MiBhdHRlbmRlIHVuYSByaXNwb3N0YSBkYWwgc2VydmVyIGNoZSBpbmRpY2EgaWwgbnVtZXJvIGRpIHNlcXVlbnplIHJpY2V2dXRlLCBjb25mcm9udGFuZG9sbyBjb24gaWwgbnVtZXJvIGRpIHNlcXVlbnplIGludmlhdGUgcGVyIHZlcmlmaWNhcmUgbGEgY29ycmV0dGV6emEgZGVsbGEgdHJhc21pc3Npb25lLgo",
-					"AQAAAAAAAAABAAAAHxAAAAAAAAAfEAAAAAAAAAAAAAAAADJA"
-				],
-				[
-					235,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AQAAAFIOAAAAAAAAUw4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAUg4AAAAAAABSDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					239,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAAFQOAAAAAAAAVQ4AAAAAAAAAAAAAVQ4AAAAAAABWDgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVA4AAAAAAABUDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					240,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAFYOAAAAAAAAVw4AAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAVg4AAAAAAABWDgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					243,
-					1,
-					"insert",
-					{
-						"characters": "##"
-					},
-					"AgAAANAQAAAAAAAA0RAAAAAAAAAAAAAA0RAAAAAAAADSEAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0BAAAAAAAADQEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					244,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAANIQAAAAAAAA0xAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA0hAAAAAAAADSEAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					245,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Archivio\n\nLa struttura del progetto, suddivisa in quattro librerie distinte (writer.h, reader.h, buffer.h, manager.h), riflette un approccio modulare alla programmazione in C, mirato a ottimizzare l'organizzazione del codice e a facilitare la manutenzione e la scalabilità del sistema\n\n## 1. Buffer (buffer.h)\n\nQuesta libreria gestisce il buffer produttori-consumatori, una struttura dati fondamentale per il coordinamento tra i thread scrittori e lettori. Implementando funzioni per acquisire e rilasciare l'accesso in lettura e scrittura, questa libreria fornisce un meccanismo di sincronizzazione essenziale che previene condizioni di gara e assicura l'integrità dei dati. La scelta di separare la gestione del buffer in una libreria dedicata rispecchia i principi di singola responsabilità e modularità, permettendo di mantenere il codice organizzato e facilmente manutenibile.\n\n## 2. Writer (writer.h)\n\nLa libreria writer.h definisce le strutture e le funzioni specifiche per i thread scrittori. Gestisce la creazione di nuovi dati, la loro inserzione nel buffer e la sincronizzazione con altri thread. La separazione dei compiti degli scrittori in una libreria dedicata permette una maggiore chiarezza nel codice e facilita la gestione di specifiche funzionalità legate agli scrittori.\n\n## 3. Reader (reader.h)\n\nAnalogamente a writer.h, reader.h si concentra sui thread lettori. Questa libreria definisce come i lettori accedono ai dati nel buffer e come questi vengono processati. Separare i lettori dagli scrittori in librerie differenti aiuta a mantenere il codice organizzato, rendendo più semplice gestire e ottimizzare ogni parte del sistema in modo indipendente.\n\n## 4. Manager (manager.h)\n\nQuesta libreria funge da supervisore o coordinatore del sistema. Contiene la logica per la gestione dei vari thread, la loro sincronizzazione e la gestione dei segnali. La presenza di una libreria dedicata al \"manager\" del sistema consente di avere un punto centrale di controllo, rendendo più chiare le interazioni tra i vari componenti e facilitando la gestione degli aspetti globali dell'applicazione.\n\n# Server\n\nNel sviluppare server.py, ho mirato a creare un server versatile e affidabile. Utilizzando il modulo argparse, ho permesso agli utenti di personalizzare facilmente i parametri di esecuzione, come il numero di thread e l'opzione di eseguire il programma archivio con Valgrind, migliorando così la flessibilità e la facilità di debug.\n\nHo implementato la creazione di pipe con nome per una comunicazione efficiente con il processo archivio. Successivamente, ho configurato un socket server che utilizza ThreadPoolExecutor per gestire le connessioni in entrata in modo asincrono, assegnando un thread dedicato a ogni connessione.\n\nLe funzioni recv_allc1 e recv_allc2 gestiscono la ricezione dei dati dai client, scrivendo le informazioni ricevute nelle pipe in mutua esclusione. Questo assicura una sincronizzazione efficace e riduce il rischio di conflitti.\n\nIn caso di eccezioni o interruzioni, ho implementato un meccanismo di pulizia che chiude le pipe, rimuove le connessioni e invia un segnale SIGTERM a archivio, garantendo una chiusura ordinata e sicura del server. Ho inoltre utilizzato lock separati per la scrittura sulle pipe e sui file di log per ottimizzare la gestione della concorrenza e migliorare le prestazioni del server.\n\n# Client1 e Client2\n\nn client1.c e client2.c, ho sviluppato due client distinti per interagire con il server. Entrambi i client hanno il compito di leggere sequenze di dati da file di testo e inviarle al server, ma differiscono nella modalità di comunicazione e nel trattamento delle risposte del server.\n\n## client1.c\n\n- Lettura del File: Il client apre un file di testo e legge sequenze di dati. Per ogni sequenza, stabilisce una nuova connessione con il server.\n\n- Invio dei Dati: Ogni sequenza viene inviata insieme alla sua lunghezza. Utilizzo la funzione writen per assicurarmi che tutti i dati vengano inviati correttamente, gestendo anche eventuali interruzioni.\n\n- Connessione e Chiusura Socket: Per ogni sequenza, il client apre una nuova socket, invia i dati e chiude la socket. Questo modello di \"usa e getta\" semplifica la gestione delle connessioni, ma potrebbe non essere l'approccio più efficiente in termini di prestazioni.\n\n## client2.c\n\n- Gestione Multithread: Utilizzo i thread per gestire più file di input in parallelo. Ogni thread legge da un file diverso e invia i dati al server, permettendo un'elaborazione più efficiente e parallela.\n\n- Comunicazione Continua: A differenza di client1, client2 mantiene aperta la connessione per l'intera durata dell'invio di tutte le sequenze da un singolo file, inviando un segnale di terminazione alla fine.\n\n- Ricezione e Verifica Risposte: Dopo aver inviato tutte le sequenze, client2 attende una risposta dal server che indica il numero di sequenze ricevute, confrontandolo con il numero di sequenze inviate per verificare la correttezza della trasmissione.\n"
-					},
-					"AQAAAAAAAAAAAAAAehMAAAAAAACIEwAAIyBBcmNoaXZpbwoKTGEgc3RydXR0dXJhIGRlbCBwcm9nZXR0bywgc3VkZGl2aXNhIGluIHF1YXR0cm8gbGlicmVyaWUgZGlzdGludGUgKHdyaXRlci5oLCByZWFkZXIuaCwgYnVmZmVyLmgsIG1hbmFnZXIuaCksIHJpZmxldHRlIHVuIGFwcHJvY2NpbyBtb2R1bGFyZSBhbGxhIHByb2dyYW1tYXppb25lIGluIEMsIG1pcmF0byBhIG90dGltaXp6YXJlIGwnb3JnYW5penphemlvbmUgZGVsIGNvZGljZSBlIGEgZmFjaWxpdGFyZSBsYSBtYW51dGVuemlvbmUgZSBsYSBzY2FsYWJpbGl0w6AgZGVsIHNpc3RlbWEKCiMjIDEuIEJ1ZmZlciAoYnVmZmVyLmgpCgpRdWVzdGEgbGlicmVyaWEgZ2VzdGlzY2UgaWwgYnVmZmVyIHByb2R1dHRvcmktY29uc3VtYXRvcmksIHVuYSBzdHJ1dHR1cmEgZGF0aSBmb25kYW1lbnRhbGUgcGVyIGlsIGNvb3JkaW5hbWVudG8gdHJhIGkgdGhyZWFkIHNjcml0dG9yaSBlIGxldHRvcmkuIEltcGxlbWVudGFuZG8gZnVuemlvbmkgcGVyIGFjcXVpc2lyZSBlIHJpbGFzY2lhcmUgbCdhY2Nlc3NvIGluIGxldHR1cmEgZSBzY3JpdHR1cmEsIHF1ZXN0YSBsaWJyZXJpYSBmb3JuaXNjZSB1biBtZWNjYW5pc21vIGRpIHNpbmNyb25penphemlvbmUgZXNzZW56aWFsZSBjaGUgcHJldmllbmUgY29uZGl6aW9uaSBkaSBnYXJhIGUgYXNzaWN1cmEgbCdpbnRlZ3JpdMOgIGRlaSBkYXRpLiBMYSBzY2VsdGEgZGkgc2VwYXJhcmUgbGEgZ2VzdGlvbmUgZGVsIGJ1ZmZlciBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcmlzcGVjY2hpYSBpIHByaW5jaXBpIGRpIHNpbmdvbGEgcmVzcG9uc2FiaWxpdMOgIGUgbW9kdWxhcml0w6AsIHBlcm1ldHRlbmRvIGRpIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8gZSBmYWNpbG1lbnRlIG1hbnV0ZW5pYmlsZS4KCiMjIDIuIFdyaXRlciAod3JpdGVyLmgpCgpMYSBsaWJyZXJpYSB3cml0ZXIuaCBkZWZpbmlzY2UgbGUgc3RydXR0dXJlIGUgbGUgZnVuemlvbmkgc3BlY2lmaWNoZSBwZXIgaSB0aHJlYWQgc2NyaXR0b3JpLiBHZXN0aXNjZSBsYSBjcmVhemlvbmUgZGkgbnVvdmkgZGF0aSwgbGEgbG9ybyBpbnNlcnppb25lIG5lbCBidWZmZXIgZSBsYSBzaW5jcm9uaXp6YXppb25lIGNvbiBhbHRyaSB0aHJlYWQuIExhIHNlcGFyYXppb25lIGRlaSBjb21waXRpIGRlZ2xpIHNjcml0dG9yaSBpbiB1bmEgbGlicmVyaWEgZGVkaWNhdGEgcGVybWV0dGUgdW5hIG1hZ2dpb3JlIGNoaWFyZXp6YSBuZWwgY29kaWNlIGUgZmFjaWxpdGEgbGEgZ2VzdGlvbmUgZGkgc3BlY2lmaWNoZSBmdW56aW9uYWxpdMOgIGxlZ2F0ZSBhZ2xpIHNjcml0dG9yaS4KCiMjIDMuIFJlYWRlciAocmVhZGVyLmgpCgpBbmFsb2dhbWVudGUgYSB3cml0ZXIuaCwgcmVhZGVyLmggc2kgY29uY2VudHJhIHN1aSB0aHJlYWQgbGV0dG9yaS4gUXVlc3RhIGxpYnJlcmlhIGRlZmluaXNjZSBjb21lIGkgbGV0dG9yaSBhY2NlZG9ubyBhaSBkYXRpIG5lbCBidWZmZXIgZSBjb21lIHF1ZXN0aSB2ZW5nb25vIHByb2Nlc3NhdGkuIFNlcGFyYXJlIGkgbGV0dG9yaSBkYWdsaSBzY3JpdHRvcmkgaW4gbGlicmVyaWUgZGlmZmVyZW50aSBhaXV0YSBhIG1hbnRlbmVyZSBpbCBjb2RpY2Ugb3JnYW5penphdG8sIHJlbmRlbmRvIHBpw7kgc2VtcGxpY2UgZ2VzdGlyZSBlIG90dGltaXp6YXJlIG9nbmkgcGFydGUgZGVsIHNpc3RlbWEgaW4gbW9kbyBpbmRpcGVuZGVudGUuCgojIyA0LiBNYW5hZ2VyIChtYW5hZ2VyLmgpCgpRdWVzdGEgbGlicmVyaWEgZnVuZ2UgZGEgc3VwZXJ2aXNvcmUgbyBjb29yZGluYXRvcmUgZGVsIHNpc3RlbWEuIENvbnRpZW5lIGxhIGxvZ2ljYSBwZXIgbGEgZ2VzdGlvbmUgZGVpIHZhcmkgdGhyZWFkLCBsYSBsb3JvIHNpbmNyb25penphemlvbmUgZSBsYSBnZXN0aW9uZSBkZWkgc2VnbmFsaS4gTGEgcHJlc2VuemEgZGkgdW5hIGxpYnJlcmlhIGRlZGljYXRhIGFsICJtYW5hZ2VyIiBkZWwgc2lzdGVtYSBjb25zZW50ZSBkaSBhdmVyZSB1biBwdW50byBjZW50cmFsZSBkaSBjb250cm9sbG8sIHJlbmRlbmRvIHBpw7kgY2hpYXJlIGxlIGludGVyYXppb25pIHRyYSBpIHZhcmkgY29tcG9uZW50aSBlIGZhY2lsaXRhbmRvIGxhIGdlc3Rpb25lIGRlZ2xpIGFzcGV0dGkgZ2xvYmFsaSBkZWxsJ2FwcGxpY2F6aW9uZS4KCiMgU2VydmVyCgpOZWwgc3ZpbHVwcGFyZSBzZXJ2ZXIucHksIGhvIG1pcmF0byBhIGNyZWFyZSB1biBzZXJ2ZXIgdmVyc2F0aWxlIGUgYWZmaWRhYmlsZS4gVXRpbGl6emFuZG8gaWwgbW9kdWxvIGFyZ3BhcnNlLCBobyBwZXJtZXNzbyBhZ2xpIHV0ZW50aSBkaSBwZXJzb25hbGl6emFyZSBmYWNpbG1lbnRlIGkgcGFyYW1ldHJpIGRpIGVzZWN1emlvbmUsIGNvbWUgaWwgbnVtZXJvIGRpIHRocmVhZCBlIGwnb3B6aW9uZSBkaSBlc2VndWlyZSBpbCBwcm9ncmFtbWEgYXJjaGl2aW8gY29uIFZhbGdyaW5kLCBtaWdsaW9yYW5kbyBjb3PDrCBsYSBmbGVzc2liaWxpdMOgIGUgbGEgZmFjaWxpdMOgIGRpIGRlYnVnLgoKSG8gaW1wbGVtZW50YXRvIGxhIGNyZWF6aW9uZSBkaSBwaXBlIGNvbiBub21lIHBlciB1bmEgY29tdW5pY2F6aW9uZSBlZmZpY2llbnRlIGNvbiBpbCBwcm9jZXNzbyBhcmNoaXZpby4gU3VjY2Vzc2l2YW1lbnRlLCBobyBjb25maWd1cmF0byB1biBzb2NrZXQgc2VydmVyIGNoZSB1dGlsaXp6YSBUaHJlYWRQb29sRXhlY3V0b3IgcGVyIGdlc3RpcmUgbGUgY29ubmVzc2lvbmkgaW4gZW50cmF0YSBpbiBtb2RvIGFzaW5jcm9ubywgYXNzZWduYW5kbyB1biB0aHJlYWQgZGVkaWNhdG8gYSBvZ25pIGNvbm5lc3Npb25lLgoKTGUgZnVuemlvbmkgcmVjdl9hbGxjMSBlIHJlY3ZfYWxsYzIgZ2VzdGlzY29ubyBsYSByaWNlemlvbmUgZGVpIGRhdGkgZGFpIGNsaWVudCwgc2NyaXZlbmRvIGxlIGluZm9ybWF6aW9uaSByaWNldnV0ZSBuZWxsZSBwaXBlIGluIG11dHVhIGVzY2x1c2lvbmUuIFF1ZXN0byBhc3NpY3VyYSB1bmEgc2luY3Jvbml6emF6aW9uZSBlZmZpY2FjZSBlIHJpZHVjZSBpbCByaXNjaGlvIGRpIGNvbmZsaXR0aS4KCkluIGNhc28gZGkgZWNjZXppb25pIG8gaW50ZXJydXppb25pLCBobyBpbXBsZW1lbnRhdG8gdW4gbWVjY2FuaXNtbyBkaSBwdWxpemlhIGNoZSBjaGl1ZGUgbGUgcGlwZSwgcmltdW92ZSBsZSBjb25uZXNzaW9uaSBlIGludmlhIHVuIHNlZ25hbGUgU0lHVEVSTSBhIGFyY2hpdmlvLCBnYXJhbnRlbmRvIHVuYSBjaGl1c3VyYSBvcmRpbmF0YSBlIHNpY3VyYSBkZWwgc2VydmVyLiBIbyBpbm9sdHJlIHV0aWxpenphdG8gbG9jayBzZXBhcmF0aSBwZXIgbGEgc2NyaXR0dXJhIHN1bGxlIHBpcGUgZSBzdWkgZmlsZSBkaSBsb2cgcGVyIG90dGltaXp6YXJlIGxhIGdlc3Rpb25lIGRlbGxhIGNvbmNvcnJlbnphIGUgbWlnbGlvcmFyZSBsZSBwcmVzdGF6aW9uaSBkZWwgc2VydmVyLgoKIyBDbGllbnQxIGUgQ2xpZW50MgoKbiBjbGllbnQxLmMgZSBjbGllbnQyLmMsIGhvIHN2aWx1cHBhdG8gZHVlIGNsaWVudCBkaXN0aW50aSBwZXIgaW50ZXJhZ2lyZSBjb24gaWwgc2VydmVyLiBFbnRyYW1iaSBpIGNsaWVudCBoYW5ubyBpbCBjb21waXRvIGRpIGxlZ2dlcmUgc2VxdWVuemUgZGkgZGF0aSBkYSBmaWxlIGRpIHRlc3RvIGUgaW52aWFybGUgYWwgc2VydmVyLCBtYSBkaWZmZXJpc2Nvbm8gbmVsbGEgbW9kYWxpdMOgIGRpIGNvbXVuaWNhemlvbmUgZSBuZWwgdHJhdHRhbWVudG8gZGVsbGUgcmlzcG9zdGUgZGVsIHNlcnZlci4KCiMjIGNsaWVudDEuYwoKLSBMZXR0dXJhIGRlbCBGaWxlOiBJbCBjbGllbnQgYXByZSB1biBmaWxlIGRpIHRlc3RvIGUgbGVnZ2Ugc2VxdWVuemUgZGkgZGF0aS4gUGVyIG9nbmkgc2VxdWVuemEsIHN0YWJpbGlzY2UgdW5hIG51b3ZhIGNvbm5lc3Npb25lIGNvbiBpbCBzZXJ2ZXIuCgotIEludmlvIGRlaSBEYXRpOiBPZ25pIHNlcXVlbnphIHZpZW5lIGludmlhdGEgaW5zaWVtZSBhbGxhIHN1YSBsdW5naGV6emEuIFV0aWxpenpvIGxhIGZ1bnppb25lIHdyaXRlbiBwZXIgYXNzaWN1cmFybWkgY2hlIHR1dHRpIGkgZGF0aSB2ZW5nYW5vIGludmlhdGkgY29ycmV0dGFtZW50ZSwgZ2VzdGVuZG8gYW5jaGUgZXZlbnR1YWxpIGludGVycnV6aW9uaS4KCi0gQ29ubmVzc2lvbmUgZSBDaGl1c3VyYSBTb2NrZXQ6IFBlciBvZ25pIHNlcXVlbnphLCBpbCBjbGllbnQgYXByZSB1bmEgbnVvdmEgc29ja2V0LCBpbnZpYSBpIGRhdGkgZSBjaGl1ZGUgbGEgc29ja2V0LiBRdWVzdG8gbW9kZWxsbyBkaSAidXNhIGUgZ2V0dGEiIHNlbXBsaWZpY2EgbGEgZ2VzdGlvbmUgZGVsbGUgY29ubmVzc2lvbmksIG1hIHBvdHJlYmJlIG5vbiBlc3NlcmUgbCdhcHByb2NjaW8gcGnDuSBlZmZpY2llbnRlIGluIHRlcm1pbmkgZGkgcHJlc3RhemlvbmkuCgojIyBjbGllbnQyLmMKCi0gR2VzdGlvbmUgTXVsdGl0aHJlYWQ6IFV0aWxpenpvIGkgdGhyZWFkIHBlciBnZXN0aXJlIHBpw7kgZmlsZSBkaSBpbnB1dCBpbiBwYXJhbGxlbG8uIE9nbmkgdGhyZWFkIGxlZ2dlIGRhIHVuIGZpbGUgZGl2ZXJzbyBlIGludmlhIGkgZGF0aSBhbCBzZXJ2ZXIsIHBlcm1ldHRlbmRvIHVuJ2VsYWJvcmF6aW9uZSBwacO5IGVmZmljaWVudGUgZSBwYXJhbGxlbGEuCgotIENvbXVuaWNhemlvbmUgQ29udGludWE6IEEgZGlmZmVyZW56YSBkaSBjbGllbnQxLCBjbGllbnQyIG1hbnRpZW5lIGFwZXJ0YSBsYSBjb25uZXNzaW9uZSBwZXIgbCdpbnRlcmEgZHVyYXRhIGRlbGwnaW52aW8gZGkgdHV0dGUgbGUgc2VxdWVuemUgZGEgdW4gc2luZ29sbyBmaWxlLCBpbnZpYW5kbyB1biBzZWduYWxlIGRpIHRlcm1pbmF6aW9uZSBhbGxhIGZpbmUuCgotIFJpY2V6aW9uZSBlIFZlcmlmaWNhIFJpc3Bvc3RlOiBEb3BvIGF2ZXIgaW52aWF0byB0dXR0ZSBsZSBzZXF1ZW56ZSwgY2xpZW50MiBhdHRlbmRlIHVuYSByaXNwb3N0YSBkYWwgc2VydmVyIGNoZSBpbmRpY2EgaWwgbnVtZXJvIGRpIHNlcXVlbnplIHJpY2V2dXRlLCBjb25mcm9udGFuZG9sbyBjb24gaWwgbnVtZXJvIGRpIHNlcXVlbnplIGludmlhdGUgcGVyIHZlcmlmaWNhcmUgbGEgY29ycmV0dGV6emEgZGVsbGEgdHJhc21pc3Npb25lLgo",
-					"AQAAAAAAAAABAAAA0xAAAAAAAADTEAAAAAAAAAAAAAAAAPC/"
+					"AQAAAAAAAAAAAAAAXwEAAAAAAABfAQAAIyBBbmd1bGFyIExpYnJhcnkgZm9yIGxpdmUgTWVzc2FnaW5nIHVzaW5nIFNvY2tldC5pbwoKIyMgQW5ndWxhciBhcHAgKyBzZXJ2ZXIKCioqVG8gc3RhcnQgdGhlIGFwcCoqOgoKYGNkIGFwcC8gJiYgbmcgc2VydmVgCgoqKlRvIHN0YXJ0IHRoZSBzZXJ2ZXIgb24geW91ciBsb2NhbCBtYWNoaW5lIChyZXF1aXJlZCB0byB1c2UgdGhlIGNoYXQgZmVhdHVyZSBvbmxpbmUpKio6CgpgY2Qgc2VydmVyLyAmJiBub2RlIGluZGV4LmpzYAoKIyMjIFlvdSBjYW4gZmluZCB0aGUgbGlicmFyeSBvbiBbbnBtXShodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS9AZ2FicmllbGUtc2Fsdm8vc29ja2V0LWNoYXQtYW5ndWxhcikK",
+					"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
 				]
-			]
-		},
-		{
-			"file": "/home/gab/Github/LaboratorioII-Gabriele-salvo/client2.c",
-			"settings":
-			{
-				"buffer_size": 4423,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
 			]
 		}
 	],
@@ -1486,10 +296,39 @@
 	},
 	"expanded_folders":
 	[
-		"/home/gab/Github/LaboratorioII-Gabriele-salvo"
+		"/home/gab/Github/Socket-Chat-Angular",
+		"/home/gab/Github/Socket-Chat-Angular/app",
+		"/home/gab/Github/Socket-Chat-Angular/server"
 	],
 	"file_history":
 	[
+		"/home/gab/Github/HackEd/src/app/user/user.component.ts",
+		"/home/gab/Github/HackEd/firebase.config.ts",
+		"/home/gab/Github/HackEd/src/firebase-messaging-sw.js",
+		"/home/gab/Github/Triennale/II/LabII/index.md",
+		"/home/gab/Github/Triennale/II/LabII/Intro.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Concorrente.md",
+		"/home/gab/Github/HackEd/src/app/app.component.ts",
+		"/home/gab/Github/HackEd/src/app/code-editor/code-editor.component.ts",
+		"/home/gab/Github/HackEd/src/app/auth/auth.component.ts",
+		"/home/gab/Github/HackEd/README.md",
+		"/home/gab/Github/Socket-Chat-Angular/server/README.md",
+		"/home/gab/Github/Socket-Chat-Angular/README.md",
+		"/home/gab/Github/Socket-Chat-Angular/app/README.md",
+		"/home/gab/Github/Triennale/II/LabII/Capitolo-2.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Type-Systems.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Sviluppo-di-Interpreti.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Garbage-Collector.md",
+		"/home/gab/Github/Triennale/II/LabII/Capitolo-1.md",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/aritp.c",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/lunghezzaStringa.c",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/mergeSort.c",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/lista_capitali.c",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/funzfunz.c",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/jk.v",
+		"/home/gab/Github/Triennale/II/LabII/lezioni/nicemakefile",
+		"/home/gab/Github/Triennale/II/LabII/main_linked.c",
+		"/home/gab/Github/LaboratorioII-Gabriele-salvo/README.md",
 		"/home/gab/Github/LaboratorioII-Gabriele-salvo/makefile",
 		"/home/gab/Github/LaboratorioII-Gabriele-salvo/manager.h",
 		"/home/gab/Github/LaboratorioII-Gabriele-salvo/libraries/manager.c",
@@ -1539,7 +378,6 @@
 		"/home/gab/LaboratorioII-Gabriele-salvo/file1",
 		"/home/gab/Github/Triennale/II/Ricerca-Operativa/PL.md",
 		"/home/gab/Github/Triennale/II/LabII/makefile",
-		"/home/gab/Github/Triennale/II/LabII/main_linked.c",
 		"/home/gab/Github/Triennale/II/LabII/main.c",
 		"/home/gab/Github/Triennale/III/Basi-di-Dati/Capitolo-8.md",
 		"/home/gab/Github/Triennale/III/Basi-di-Dati/Capitolo-7.md",
@@ -1591,25 +429,7 @@
 		"/home/gab/Github/Packages/README.md",
 		"/home/gab/.config/sublime-text/Packages/User/termious_on_startup.py",
 		"/home/gab/Github/Second-Brain/second-brain.sublime-project",
-		"/home/gab/Github/Second-Brain/.gitignore",
-		"/home/gab/Github/Dry/README.md",
-		"/home/gab/tuscandry.md",
-		"/home/gab/Github/HackEd/src/app/app-routing.module.ts",
-		"/home/gab/Github/Server/socket.js",
-		"/home/gab/Github/Server/compiler.js",
-		"/home/gab/Github/Server/compiler_test.js",
-		"/home/gab/Github/Server/pserver.js",
-		"/home/gab/Github/Server/sftp-config.json",
-		"/home/gab/Github/gabsalvo.github.io/src/pages/index.astro",
-		"/home/gab/Github/HackEd/src/app/user/user.component.ts",
-		"/home/gab/Github/HackEd/src/app/app.component.html",
-		"/home/gab/Github/gabsalvo.github.io/src/content/post/Get your first npm package going.md",
-		"/home/gab/.config/sublime-text/Packages/User/Terminus.sublime-settings",
-		"/home/gab/.config/sublime-text/Packages/Terminus/Terminus.sublime-settings",
-		"/home/gab/.config/sublime-text/Packages/QuickPanelEnhanced/Default.sublime-keymap",
-		"/home/gab/.config/sublime-text/Packages/TerminalinPackages/Default.sublime-keymap",
-		"/home/gab/.config/sublime-text/Packages/User/Side Bar.sublime-settings",
-		"/home/gab/hello.c"
+		"/home/gab/Github/Second-Brain/.gitignore"
 	],
 	"find":
 	{
@@ -1627,6 +447,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"masche",
 			"lista",
 			"//",
 			"qui",
@@ -1654,20 +475,20 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/gab/Github/LaboratorioII-Gabriele-salvo/README.md",
+					"file": "/home/gab/Github/Socket-Chat-Angular/README.md",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4986,
+						"buffer_size": 351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4307,
-								4307
+								250,
+								250
 							]
 						],
 						"settings":
@@ -1678,44 +499,10 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2017.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/gab/Github/LaboratorioII-Gabriele-salvo/client2.c",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 4423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								545,
-								545
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/C++/C.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -1724,7 +511,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 39.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -1791,7 +578,11 @@
 	},
 	"output.Terminus 7":
 	{
-		"height": 156.0
+		"height": 421.0
+	},
+	"output.Terminus 8":
+	{
+		"height": 392.0
 	},
 	"output.exec":
 	{
@@ -1805,7 +596,7 @@
 	"project": "uni.sublime-project",
 	"replace":
 	{
-		"height": 74.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1850,8 +641,8 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 212.0,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -271,3 +271,35 @@ Opera bene sulle strutture circolari, nessun overhead di spazio, sospende l'esec
 - Quando viene attivato il garbage collector, le celle live vengono copiate nella seconda porzione dello heap (quella non attiva).
   alla fine della operazione di copia i ruoli tra le due parti delle heap vengono scambaiti.
 - Le celle nella parte non attiva vengono restituite alla lista libera in un unico blocco evitando frammentazione.
+
+## Generational Garbage Collector
+
+- " Most cells that die, die young"
+- Si divide lo heap in un insieme di generazioni
+- Diversi approcci di garbage collectiton nelle diverse generazioni
+
+<p align="center">
+  <img src="./assets/pdp5.png" alt="data-structure" />
+</p>
+
+<p align="center">
+  <img src="./assets/pdp6.png" alt="data-structure" />
+</p>
+
+In sostanza:
+
+1. si copiano i blocchi vivi in Old, si fa rapidamente perchè i blocchi vivi di solito sono pochi.
+
+2. Si ripulisce Young in tempo costante
+
+3. Si continua ad allocare nuovi blocchi in Young.
+
+- L'area di memoria Young può essere molto più piccola di quella Old (che mantiene i blocchi che hanno una vita più lunga).
+
+- Per ripulire l'area Old si può usare un qualunque altro metodo di garbage collection (es. mark and sweep).
+
+### Copying con più generazioni
+
+<p align="center">
+  <img src="./assets/pdp7.png" alt="data-structure" />
+</p>
