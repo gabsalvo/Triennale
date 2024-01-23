@@ -116,44 +116,31 @@
 	"buffers":
 	[
 		{
-			"file": "/home/gab/Github/Socket-Chat-Angular/README.md",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 351,
-				"encoding": "UTF-8",
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					3,
+					7,
 					1,
 					"insert",
 					{
-						"characters": "###"
+						"characters": "P"
 					},
-					"AwAAAPYAAAAAAAAA9wAAAAAAAAAAAAAA9wAAAAAAAAD4AAAAAAAAAAAAAAD4AAAAAAAAAPkAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9gAAAAAAAAD2AAAAAAAAAAAAAAAAAPC/"
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
-					4,
+					8,
 					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAPkAAAAAAAAA+gAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA+QAAAAAAAAD5AAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					5,
-					1,
-					"replace_view_content",
-					{
-						"content": "# Angular Library for live Messaging using Socket.io\n\n## Angular app + server\n\n**To start the app**:\n\n`cd app/ && ng serve`\n\n**To start the server on your local machine (required to use the chat feature online)**:\n\n`cd server/ && node index.js`\n\n### You can find the library on [npm](https://www.npmjs.com/package/@gabriele-salvo/socket-chat-angular)\n"
-					},
-					"AQAAAAAAAAAAAAAAXwEAAAAAAABfAQAAIyBBbmd1bGFyIExpYnJhcnkgZm9yIGxpdmUgTWVzc2FnaW5nIHVzaW5nIFNvY2tldC5pbwoKIyMgQW5ndWxhciBhcHAgKyBzZXJ2ZXIKCioqVG8gc3RhcnQgdGhlIGFwcCoqOgoKYGNkIGFwcC8gJiYgbmcgc2VydmVgCgoqKlRvIHN0YXJ0IHRoZSBzZXJ2ZXIgb24geW91ciBsb2NhbCBtYWNoaW5lIChyZXF1aXJlZCB0byB1c2UgdGhlIGNoYXQgZmVhdHVyZSBvbmxpbmUpKio6CgpgY2Qgc2VydmVyLyAmJiBub2RlIGluZGV4LmpzYAoKIyMjIFlvdSBjYW4gZmluZCB0aGUgbGlicmFyeSBvbiBbbnBtXShodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS9AZ2FicmllbGUtc2Fsdm8vc29ja2V0LWNoYXQtYW5ndWxhcikK",
-					"AQAAAAAAAAABAAAA+gAAAAAAAAD6AAAAAAAAAAAAAAAAAPC/"
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAUA",
+					"AQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		}
@@ -170,7 +157,15 @@
 		"selected_items":
 		[
 			[
+				"open",
+				"SublimeLinter: Open diagnostics panel"
+			],
+			[
 				"op",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"ope",
 				"Terminus: Open Default Shell in Panel"
 			],
 			[
@@ -190,10 +185,6 @@
 				"Build With: Python - Syntax Check"
 			],
 			[
-				"ope",
-				"Terminus: Open Default Shell in Panel"
-			],
-			[
 				"sublimLin",
 				"SublimeLinter: Show Line Errors"
 			],
@@ -204,10 +195,6 @@
 			[
 				"UI",
 				"UI: Customize Theme"
-			],
-			[
-				"open",
-				"Terminus: Open Default Shell in Panel"
 			],
 			[
 				"close",
@@ -296,12 +283,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/gab/Github/Socket-Chat-Angular",
-		"/home/gab/Github/Socket-Chat-Angular/app",
-		"/home/gab/Github/Socket-Chat-Angular/server"
+		"/home/gab/Github/Triennale",
+		"/home/gab/Github/Triennale/II"
 	],
 	"file_history":
 	[
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-5.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-6.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-4.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-3.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-2.md",
+		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Programmazione-Oggetti-1.md",
+		"/home/gab/Github/Socket-Chat-Angular/README.md",
 		"/home/gab/Github/HackEd/src/app/user/user.component.ts",
 		"/home/gab/Github/HackEd/firebase.config.ts",
 		"/home/gab/Github/HackEd/src/firebase-messaging-sw.js",
@@ -313,7 +306,6 @@
 		"/home/gab/Github/HackEd/src/app/auth/auth.component.ts",
 		"/home/gab/Github/HackEd/README.md",
 		"/home/gab/Github/Socket-Chat-Angular/server/README.md",
-		"/home/gab/Github/Socket-Chat-Angular/README.md",
 		"/home/gab/Github/Socket-Chat-Angular/app/README.md",
 		"/home/gab/Github/Triennale/II/LabII/Capitolo-2.md",
 		"/home/gab/Github/Triennale/II/Paradigmi_di_Programmazione/Type-Systems.md",
@@ -423,17 +415,11 @@
 		"/home/gab/Github/Second-Brain/projects/triennale/bozza-di-piano.md",
 		"/home/gab/Github/Second-Brain/projects/Swot.md",
 		"/home/gab/.config/sublime-text/Packages/User/Diction.sublime-settings",
-		"/home/gab/Github/Python/class.py",
-		"/home/gab/Github/Second-Brain/README.md",
-		"/home/gab/Github/Second-Brain/brain-dumps/orwellian-stream.md",
-		"/home/gab/Github/Packages/README.md",
-		"/home/gab/.config/sublime-text/Packages/User/termious_on_startup.py",
-		"/home/gab/Github/Second-Brain/second-brain.sublime-project",
-		"/home/gab/Github/Second-Brain/.gitignore"
+		"/home/gab/Github/Python/class.py"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -475,28 +461,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/gab/Github/Socket-Chat-Angular/README.md",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 351,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								250,
-								250
+								0,
+								0
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
+							"default_dir": "/home/gab/Github/Second-Brain/projects/Education/triennale",
 							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

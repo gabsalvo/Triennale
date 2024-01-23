@@ -504,5 +504,23 @@ La definizione di una classe introduce anche un tipo con lo stesso nome,
 #### Overriding
 
 <p align="center">
-  <img src="./assets/pdp4.png" alt="data-structure" />
+  <img src="./assets/pdp48.png" alt="data-structure" />
 </p>
+
+# OOP in OCaml: recap
+
+OCaml combina costrutti linguistici `object-based` con costrutti tipicamente `class-based`.
+
+- I costrutti `ob-ba` favoriscono la definizione di `object-types` e lo `structural subtyping`
+
+- La `non modificabilità della struttura degli oggetti` consente di effettuare controlli di tipo a tempo di compilazione.
+
+- I controlli `class-based` favoriscono una naturale definizione di meccanismi di ereditarietà.
+
+OCaml prevede altri costrutti di OOP che consentono di trattare aspetti importanti quali:
+
+- Interfacce
+- Classi parzialmente definite
+- Iteratori
+
+Non vedremo tutti questi aspetti, ma li tratteremo in JAVA
